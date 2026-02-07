@@ -1,0 +1,121 @@
+{
+  "executive_summary": {
+    "knowledge_graph_nodes": 47,
+    "knowledge_graph_edges": 69,
+    "inferences_generated": 5,
+    "contradictions_found": 0,
+    "hypotheses_proposed": 8,
+    "reasoning_confidence": 0.47000000000000003,
+    "reasoning_completeness": 0.6
+  },
+  "key_insights": {
+    "most_confident_inference": "'20' is a central theme (appears 7 times)",
+    "critical_contradictions": [],
+    "testable_hypotheses": [
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'20' and '20' have a significant relationship",
+        "evidence": "Co-occur in 9 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.8,
+        "research_questions": [
+          "What is the nature of the relationship between 20 and 20?",
+          "In what contexts do 20 and 20 typically appear together?"
+        ]
+      },
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'$1' and '20' have a significant relationship",
+        "evidence": "Co-occur in 10 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.8,
+        "research_questions": [
+          "What is the nature of the relationship between $1 and 20?",
+          "In what contexts do $1 and 20 typically appear together?"
+        ]
+      },
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'$2' and '20' have a significant relationship",
+        "evidence": "Co-occur in 8 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.8,
+        "research_questions": [
+          "What is the nature of the relationship between $2 and 20?",
+          "In what contexts do $2 and 20 typically appear together?"
+        ]
+      },
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'$600' and '20' have a significant relationship",
+        "evidence": "Co-occur in 4 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.8,
+        "research_questions": [
+          "What is the nature of the relationship between $600 and 20?",
+          "In what contexts do $600 and 20 typically appear together?"
+        ]
+      },
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'$450' and '20' have a significant relationship",
+        "evidence": "Co-occur in 4 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.8,
+        "research_questions": [
+          "What is the nature of the relationship between $450 and 20?",
+          "In what contexts do $450 and 20 typically appear together?"
+        ]
+      },
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'$1' and '$2' have a significant relationship",
+        "evidence": "Co-occur in 2 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.7,
+        "research_questions": [
+          "What is the nature of the relationship between $1 and $2?",
+          "In what contexts do $1 and $2 typically appear together?"
+        ]
+      },
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'$2' and '$600' have a significant relationship",
+        "evidence": "Co-occur in 2 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.7,
+        "research_questions": [
+          "What is the nature of the relationship between $2 and $600?",
+          "In what contexts do $2 and $600 typically appear together?"
+        ]
+      },
+      {
+        "type": "relationship_hypothesis",
+        "hypothesis": "'$2' and '$450' have a significant relationship",
+        "evidence": "Co-occur in 2 documents",
+        "testable_prediction": "If this relationship exists, they should appear together in related future documents",
+        "confidence": 0.7,
+        "research_questions": [
+          "What is the nature of the relationship between $2 and $450?",
+          "In what contexts do $2 and $450 typically appear together?"
+        ]
+      }
+    ]
+  },
+  "reasoning_methodology": {
+    "strategies_applied": [
+      "deductive",
+      "inductive",
+      "abductive",
+      "analogical",
+      "causal"
+    ],
+    "reasoning_mode": "comprehensive",
+    "inference_depth": 3
+  },
+  "processing_metadata": {
+    "reasoning_timestamp": 1770447814.36889,
+    "agent_name": "ReasoningAgent",
+    "session_id": "38a92835-da6a-475e-a731-c550f2a85844"
+  }
+}

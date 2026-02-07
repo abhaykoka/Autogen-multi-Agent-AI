@@ -11,6 +11,10 @@ import uuid
 from typing import Dict, List, Any, Optional
 from pathlib import Path
 import argparse
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Import the ADK framework and agents
 from utils.adk_framework import AgentOrchestrator, AgentStatus

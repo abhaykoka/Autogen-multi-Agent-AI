@@ -1,0 +1,1584 @@
+{
+  "session_id": "f79221a7-1066-40c2-ba17-eb5ad321b71e",
+  "nodes": [
+    {
+      "id": "doc_0",
+      "type": "document",
+      "label": "ai_market_research.txt",
+      "properties": {
+        "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+        "document_type": "other",
+        "sentiment": "neutral",
+        "topic_count": 5
+      }
+    },
+    {
+      "id": "entity_1",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "ai_market_research"
+      }
+    },
+    {
+      "id": "entity_2",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "ai_market_research"
+      }
+    },
+    {
+      "id": "entity_3",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "ai_market_research"
+      }
+    },
+    {
+      "id": "entity_4",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$1",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "ai_market_research"
+      }
+    },
+    {
+      "id": "entity_5",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$1",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "ai_market_research"
+      }
+    },
+    {
+      "id": "topic_6",
+      "type": "concept",
+      "label": "adoption",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_7",
+      "type": "concept",
+      "label": "rate",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_8",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_9",
+      "type": "concept",
+      "label": "technology",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_10",
+      "type": "concept",
+      "label": "data",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "keyword_11",
+      "type": "concept",
+      "label": "adoption",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_12",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "importance": 0.5454545454545454,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_13",
+      "type": "concept",
+      "label": "technology",
+      "properties": {
+        "importance": 0.36363636363636365,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_14",
+      "type": "concept",
+      "label": "research",
+      "properties": {
+        "importance": 0.2727272727272727,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_15",
+      "type": "concept",
+      "label": "implementation",
+      "properties": {
+        "importance": 0.2727272727272727,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "doc_16",
+      "type": "document",
+      "label": "business_report_q3_2024.txt",
+      "properties": {
+        "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt",
+        "document_type": "report",
+        "sentiment": "neutral",
+        "topic_count": 5
+      }
+    },
+    {
+      "id": "entity_17",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_18",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_19",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_20",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_21",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$2",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_22",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$1",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_23",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$600",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_24",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$450",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "entity_25",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$2",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    {
+      "id": "topic_26",
+      "type": "concept",
+      "label": "customer",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_27",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_28",
+      "type": "concept",
+      "label": "satisfaction",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_29",
+      "type": "concept",
+      "label": "product",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_30",
+      "type": "concept",
+      "label": "increased",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "keyword_31",
+      "type": "concept",
+      "label": "customer",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_32",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_33",
+      "type": "concept",
+      "label": "satisfaction",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_34",
+      "type": "concept",
+      "label": "product",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_35",
+      "type": "concept",
+      "label": "increased",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "doc_36",
+      "type": "document",
+      "label": "technical_architecture.txt",
+      "properties": {
+        "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt",
+        "document_type": "other",
+        "sentiment": "neutral",
+        "topic_count": 5
+      }
+    },
+    {
+      "id": "topic_37",
+      "type": "concept",
+      "label": "data",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_38",
+      "type": "concept",
+      "label": "authentication",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_39",
+      "type": "concept",
+      "label": "service",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_40",
+      "type": "concept",
+      "label": "system",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "topic_41",
+      "type": "concept",
+      "label": "architecture",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    {
+      "id": "keyword_42",
+      "type": "concept",
+      "label": "authentication",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_43",
+      "type": "concept",
+      "label": "service",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_44",
+      "type": "concept",
+      "label": "system",
+      "properties": {
+        "importance": 0.75,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_45",
+      "type": "concept",
+      "label": "architecture",
+      "properties": {
+        "importance": 0.75,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    {
+      "id": "keyword_46",
+      "type": "concept",
+      "label": "encryption",
+      "properties": {
+        "importance": 0.75,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "source": "doc_0",
+      "target": "entity_1",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.7
+      }
+    },
+    {
+      "id": "edge_1",
+      "source": "doc_0",
+      "target": "entity_2",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.7
+      }
+    },
+    {
+      "id": "edge_2",
+      "source": "doc_0",
+      "target": "entity_3",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.7
+      }
+    },
+    {
+      "id": "edge_3",
+      "source": "doc_0",
+      "target": "entity_4",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "id": "edge_4",
+      "source": "doc_0",
+      "target": "entity_5",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "id": "edge_5",
+      "source": "doc_0",
+      "target": "topic_6",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_6",
+      "source": "doc_0",
+      "target": "topic_7",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_7",
+      "source": "doc_0",
+      "target": "topic_8",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_8",
+      "source": "doc_0",
+      "target": "topic_9",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_9",
+      "source": "doc_0",
+      "target": "topic_10",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_10",
+      "source": "doc_0",
+      "target": "keyword_11",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 1.0
+      }
+    },
+    {
+      "id": "edge_11",
+      "source": "doc_0",
+      "target": "keyword_12",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.5454545454545454
+      }
+    },
+    {
+      "id": "edge_12",
+      "source": "doc_0",
+      "target": "keyword_13",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.36363636363636365
+      }
+    },
+    {
+      "id": "edge_13",
+      "source": "doc_0",
+      "target": "keyword_14",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.2727272727272727
+      }
+    },
+    {
+      "id": "edge_14",
+      "source": "doc_0",
+      "target": "keyword_15",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.2727272727272727
+      }
+    },
+    {
+      "id": "edge_15",
+      "source": "doc_16",
+      "target": "entity_17",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.7
+      }
+    },
+    {
+      "id": "edge_16",
+      "source": "doc_16",
+      "target": "entity_18",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.7
+      }
+    },
+    {
+      "id": "edge_17",
+      "source": "doc_16",
+      "target": "entity_19",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.7
+      }
+    },
+    {
+      "id": "edge_18",
+      "source": "doc_16",
+      "target": "entity_20",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.7
+      }
+    },
+    {
+      "id": "edge_19",
+      "source": "doc_16",
+      "target": "entity_21",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "id": "edge_20",
+      "source": "doc_16",
+      "target": "entity_22",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "id": "edge_21",
+      "source": "doc_16",
+      "target": "entity_23",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "id": "edge_22",
+      "source": "doc_16",
+      "target": "entity_24",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "id": "edge_23",
+      "source": "doc_16",
+      "target": "entity_25",
+      "type": "contains",
+      "properties": {
+        "confidence": 0.8
+      }
+    },
+    {
+      "id": "edge_24",
+      "source": "doc_16",
+      "target": "topic_26",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_25",
+      "source": "doc_16",
+      "target": "topic_27",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_26",
+      "source": "doc_16",
+      "target": "topic_28",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_27",
+      "source": "doc_16",
+      "target": "topic_29",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_28",
+      "source": "doc_16",
+      "target": "topic_30",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_29",
+      "source": "doc_16",
+      "target": "keyword_31",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 1.0
+      }
+    },
+    {
+      "id": "edge_30",
+      "source": "doc_16",
+      "target": "keyword_32",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.5
+      }
+    },
+    {
+      "id": "edge_31",
+      "source": "doc_16",
+      "target": "keyword_33",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.5
+      }
+    },
+    {
+      "id": "edge_32",
+      "source": "doc_16",
+      "target": "keyword_34",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.5
+      }
+    },
+    {
+      "id": "edge_33",
+      "source": "doc_16",
+      "target": "keyword_35",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.5
+      }
+    },
+    {
+      "id": "edge_34",
+      "source": "doc_36",
+      "target": "topic_37",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_35",
+      "source": "doc_36",
+      "target": "topic_38",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_36",
+      "source": "doc_36",
+      "target": "topic_39",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_37",
+      "source": "doc_36",
+      "target": "topic_40",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_38",
+      "source": "doc_36",
+      "target": "topic_41",
+      "type": "discusses",
+      "properties": {}
+    },
+    {
+      "id": "edge_39",
+      "source": "doc_36",
+      "target": "keyword_42",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 1.0
+      }
+    },
+    {
+      "id": "edge_40",
+      "source": "doc_36",
+      "target": "keyword_43",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 1.0
+      }
+    },
+    {
+      "id": "edge_41",
+      "source": "doc_36",
+      "target": "keyword_44",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.75
+      }
+    },
+    {
+      "id": "edge_42",
+      "source": "doc_36",
+      "target": "keyword_45",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.75
+      }
+    },
+    {
+      "id": "edge_43",
+      "source": "doc_36",
+      "target": "keyword_46",
+      "type": "emphasizes",
+      "properties": {
+        "importance": 0.75
+      }
+    },
+    {
+      "id": "edge_44",
+      "source": "entity_1",
+      "target": "entity_2",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_45",
+      "source": "entity_1",
+      "target": "entity_3",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_46",
+      "source": "entity_1",
+      "target": "entity_17",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_47",
+      "source": "entity_1",
+      "target": "entity_18",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_48",
+      "source": "entity_1",
+      "target": "entity_19",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_49",
+      "source": "entity_1",
+      "target": "entity_20",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_50",
+      "source": "entity_2",
+      "target": "entity_3",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_51",
+      "source": "entity_2",
+      "target": "entity_17",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_52",
+      "source": "entity_2",
+      "target": "entity_18",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_53",
+      "source": "entity_2",
+      "target": "entity_19",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_54",
+      "source": "entity_2",
+      "target": "entity_20",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_55",
+      "source": "entity_3",
+      "target": "entity_17",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_56",
+      "source": "entity_3",
+      "target": "entity_18",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_57",
+      "source": "entity_3",
+      "target": "entity_19",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_58",
+      "source": "entity_3",
+      "target": "entity_20",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_59",
+      "source": "entity_17",
+      "target": "entity_18",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_60",
+      "source": "entity_17",
+      "target": "entity_19",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_61",
+      "source": "entity_17",
+      "target": "entity_20",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_62",
+      "source": "entity_18",
+      "target": "entity_19",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_63",
+      "source": "entity_18",
+      "target": "entity_20",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_64",
+      "source": "entity_19",
+      "target": "entity_20",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "20",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_65",
+      "source": "entity_4",
+      "target": "entity_5",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "$1",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_66",
+      "source": "entity_4",
+      "target": "entity_22",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "$1",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_67",
+      "source": "entity_5",
+      "target": "entity_22",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "$1",
+        "cross_document": true
+      }
+    },
+    {
+      "id": "edge_68",
+      "source": "entity_21",
+      "target": "entity_25",
+      "type": "same_as",
+      "properties": {
+        "entity_label": "$2",
+        "cross_document": true
+      }
+    }
+  ],
+  "node_index": {
+    "doc_0": {
+      "id": "doc_0",
+      "type": "document",
+      "label": "ai_market_research.txt",
+      "properties": {
+        "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+        "document_type": "other",
+        "sentiment": "neutral",
+        "topic_count": 5
+      }
+    },
+    "entity_1": {
+      "id": "entity_1",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "ai_market_research"
+      }
+    },
+    "entity_2": {
+      "id": "entity_2",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "ai_market_research"
+      }
+    },
+    "entity_3": {
+      "id": "entity_3",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "ai_market_research"
+      }
+    },
+    "entity_4": {
+      "id": "entity_4",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$1",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "ai_market_research"
+      }
+    },
+    "entity_5": {
+      "id": "entity_5",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$1",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "ai_market_research"
+      }
+    },
+    "topic_6": {
+      "id": "topic_6",
+      "type": "concept",
+      "label": "adoption",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_7": {
+      "id": "topic_7",
+      "type": "concept",
+      "label": "rate",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_8": {
+      "id": "topic_8",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_9": {
+      "id": "topic_9",
+      "type": "concept",
+      "label": "technology",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_10": {
+      "id": "topic_10",
+      "type": "concept",
+      "label": "data",
+      "properties": {
+        "source_document": "ai_market_research",
+        "topic_type": "main_topic"
+      }
+    },
+    "keyword_11": {
+      "id": "keyword_11",
+      "type": "concept",
+      "label": "adoption",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_12": {
+      "id": "keyword_12",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "importance": 0.5454545454545454,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_13": {
+      "id": "keyword_13",
+      "type": "concept",
+      "label": "technology",
+      "properties": {
+        "importance": 0.36363636363636365,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_14": {
+      "id": "keyword_14",
+      "type": "concept",
+      "label": "research",
+      "properties": {
+        "importance": 0.2727272727272727,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_15": {
+      "id": "keyword_15",
+      "type": "concept",
+      "label": "implementation",
+      "properties": {
+        "importance": 0.2727272727272727,
+        "source_document": "ai_market_research",
+        "keyword_type": "extracted"
+      }
+    },
+    "doc_16": {
+      "id": "doc_16",
+      "type": "document",
+      "label": "business_report_q3_2024.txt",
+      "properties": {
+        "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt",
+        "document_type": "report",
+        "sentiment": "neutral",
+        "topic_count": 5
+      }
+    },
+    "entity_17": {
+      "id": "entity_17",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_18": {
+      "id": "entity_18",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_19": {
+      "id": "entity_19",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_20": {
+      "id": "entity_20",
+      "type": "entity",
+      "subtype": "date",
+      "label": "20",
+      "properties": {
+        "confidence": 0.7,
+        "entity_type": "DATE",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_21": {
+      "id": "entity_21",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$2",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_22": {
+      "id": "entity_22",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$1",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_23": {
+      "id": "entity_23",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$600",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_24": {
+      "id": "entity_24",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$450",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "entity_25": {
+      "id": "entity_25",
+      "type": "entity",
+      "subtype": "monetary",
+      "label": "$2",
+      "properties": {
+        "confidence": 0.8,
+        "entity_type": "MONETARY",
+        "source_document": "business_report_q3_2024"
+      }
+    },
+    "topic_26": {
+      "id": "topic_26",
+      "type": "concept",
+      "label": "customer",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_27": {
+      "id": "topic_27",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_28": {
+      "id": "topic_28",
+      "type": "concept",
+      "label": "satisfaction",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_29": {
+      "id": "topic_29",
+      "type": "concept",
+      "label": "product",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_30": {
+      "id": "topic_30",
+      "type": "concept",
+      "label": "increased",
+      "properties": {
+        "source_document": "business_report_q3_2024",
+        "topic_type": "main_topic"
+      }
+    },
+    "keyword_31": {
+      "id": "keyword_31",
+      "type": "concept",
+      "label": "customer",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_32": {
+      "id": "keyword_32",
+      "type": "concept",
+      "label": "market",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_33": {
+      "id": "keyword_33",
+      "type": "concept",
+      "label": "satisfaction",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_34": {
+      "id": "keyword_34",
+      "type": "concept",
+      "label": "product",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_35": {
+      "id": "keyword_35",
+      "type": "concept",
+      "label": "increased",
+      "properties": {
+        "importance": 0.5,
+        "source_document": "business_report_q3_2024",
+        "keyword_type": "extracted"
+      }
+    },
+    "doc_36": {
+      "id": "doc_36",
+      "type": "document",
+      "label": "technical_architecture.txt",
+      "properties": {
+        "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt",
+        "document_type": "other",
+        "sentiment": "neutral",
+        "topic_count": 5
+      }
+    },
+    "topic_37": {
+      "id": "topic_37",
+      "type": "concept",
+      "label": "data",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_38": {
+      "id": "topic_38",
+      "type": "concept",
+      "label": "authentication",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_39": {
+      "id": "topic_39",
+      "type": "concept",
+      "label": "service",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_40": {
+      "id": "topic_40",
+      "type": "concept",
+      "label": "system",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    "topic_41": {
+      "id": "topic_41",
+      "type": "concept",
+      "label": "architecture",
+      "properties": {
+        "source_document": "technical_architecture",
+        "topic_type": "main_topic"
+      }
+    },
+    "keyword_42": {
+      "id": "keyword_42",
+      "type": "concept",
+      "label": "authentication",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_43": {
+      "id": "keyword_43",
+      "type": "concept",
+      "label": "service",
+      "properties": {
+        "importance": 1.0,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_44": {
+      "id": "keyword_44",
+      "type": "concept",
+      "label": "system",
+      "properties": {
+        "importance": 0.75,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_45": {
+      "id": "keyword_45",
+      "type": "concept",
+      "label": "architecture",
+      "properties": {
+        "importance": 0.75,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    },
+    "keyword_46": {
+      "id": "keyword_46",
+      "type": "concept",
+      "label": "encryption",
+      "properties": {
+        "importance": 0.75,
+        "source_document": "technical_architecture",
+        "keyword_type": "extracted"
+      }
+    }
+  },
+  "statistics": {
+    "total_nodes": 47,
+    "total_edges": 69,
+    "node_types": {
+      "document": 3,
+      "entity": 14,
+      "concept": 30
+    },
+    "edge_types": {
+      "contains": 14,
+      "discusses": 15,
+      "emphasizes": 15,
+      "same_as": 25
+    }
+  }
+}

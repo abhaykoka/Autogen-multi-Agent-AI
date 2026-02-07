@@ -1,0 +1,79 @@
+[
+  {
+    "type": "entity_context_chain",
+    "start_entity": "$1",
+    "reasoning_path": [
+      "Entity '$1' appears in documents",
+      "These documents also contain: 20, $1",
+      "Therefore, '$1' is contextually related to these entities"
+    ],
+    "conclusion": "'$1' operates in the context of 20, $1",
+    "confidence": 0.8
+  },
+  {
+    "type": "entity_context_chain",
+    "start_entity": "$1",
+    "reasoning_path": [
+      "Entity '$1' appears in documents",
+      "These documents also contain: 20, $1",
+      "Therefore, '$1' is contextually related to these entities"
+    ],
+    "conclusion": "'$1' operates in the context of 20, $1",
+    "confidence": 0.8
+  },
+  {
+    "type": "entity_context_chain",
+    "start_entity": "$2",
+    "reasoning_path": [
+      "Entity '$2' appears in documents",
+      "These documents also contain: $2, $600, $450, 20, $1",
+      "Therefore, '$2' is contextually related to these entities"
+    ],
+    "conclusion": "'$2' operates in the context of $2, $600, $450",
+    "confidence": 0.8
+  },
+  {
+    "type": "entity_context_chain",
+    "start_entity": "$1",
+    "reasoning_path": [
+      "Entity '$1' appears in documents",
+      "These documents also contain: 20, $600, $2, $450",
+      "Therefore, '$1' is contextually related to these entities"
+    ],
+    "conclusion": "'$1' operates in the context of 20, $600, $2",
+    "confidence": 0.8
+  },
+  {
+    "type": "entity_context_chain",
+    "start_entity": "$600",
+    "reasoning_path": [
+      "Entity '$600' appears in documents",
+      "These documents also contain: 20, $1, $450, $2",
+      "Therefore, '$600' is contextually related to these entities"
+    ],
+    "conclusion": "'$600' operates in the context of 20, $1, $450",
+    "confidence": 0.8
+  },
+  {
+    "type": "entity_context_chain",
+    "start_entity": "$450",
+    "reasoning_path": [
+      "Entity '$450' appears in documents",
+      "These documents also contain: 20, $1, $600, $2",
+      "Therefore, '$450' is contextually related to these entities"
+    ],
+    "conclusion": "'$450' operates in the context of 20, $1, $600",
+    "confidence": 0.8
+  },
+  {
+    "type": "entity_context_chain",
+    "start_entity": "$2",
+    "reasoning_path": [
+      "Entity '$2' appears in documents",
+      "These documents also contain: $2, $600, $450, 20, $1",
+      "Therefore, '$2' is contextually related to these entities"
+    ],
+    "conclusion": "'$2' operates in the context of $2, $600, $450",
+    "confidence": 0.8
+  }
+]

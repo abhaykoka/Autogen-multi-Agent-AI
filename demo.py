@@ -7,7 +7,11 @@ import asyncio
 import os
 import json
 from pathlib import Path
+from dotenv import load_dotenv
 from main import AgenticDocumentIntelligence
+
+# Load environment variables
+load_dotenv()
 
 
 class ADKDemo:

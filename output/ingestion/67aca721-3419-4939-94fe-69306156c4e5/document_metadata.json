@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "ai_market_research.txt",
+    "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+    "file_size": 2166,
+    "file_hash": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+    "mime_type": "text/plain",
+    "created_at": "2026-02-07T12:25:31.670004",
+    "modified_at": "2026-02-07T12:41:04.475157",
+    "page_count": null,
+    "author": null,
+    "title": null,
+    "subject": null,
+    "creator": null,
+    "language": null
+  },
+  {
+    "filename": "business_report_q3_2024.txt",
+    "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt",
+    "file_size": 1437,
+    "file_hash": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf",
+    "mime_type": "text/plain",
+    "created_at": "2026-02-07T12:25:31.667979",
+    "modified_at": "2026-02-07T12:41:04.470622",
+    "page_count": null,
+    "author": null,
+    "title": null,
+    "subject": null,
+    "creator": null,
+    "language": null
+  },
+  {
+    "filename": "technical_architecture.txt",
+    "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt",
+    "file_size": 1501,
+    "file_hash": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e",
+    "mime_type": "text/plain",
+    "created_at": "2026-02-07T12:25:31.668990",
+    "modified_at": "2026-02-07T12:41:04.472634",
+    "page_count": null,
+    "author": null,
+    "title": null,
+    "subject": null,
+    "creator": null,
+    "language": null
+  }
+]

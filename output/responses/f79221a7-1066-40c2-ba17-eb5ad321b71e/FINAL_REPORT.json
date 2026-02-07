@@ -1,0 +1,313 @@
+{
+  "session_summary": {
+    "session_id": "f79221a7-1066-40c2-ba17-eb5ad321b71e",
+    "completion_time": "2026-02-07T12:35:46.875557",
+    "intelligence_report": {
+      "report_header": {
+        "title": "Document Intelligence Analysis Report",
+        "session_id": "f79221a7-1066-40c2-ba17-eb5ad321b71e",
+        "generated_at": "2026-02-07T12:35:46.721069",
+        "total_documents": 3,
+        "processing_pipeline": "ADK Multi-Agent System"
+      },
+      "collection_overview": {
+        "document_count": 3,
+        "document_types": {
+          "other": 2,
+          "report": 1
+        },
+        "content_diversity": 0.2857142857142857,
+        "collection_coherence": 0.29000000000000004
+      },
+      "entity_analysis": {
+        "total_entities": 14,
+        "entity_distribution": {
+          "date": 7,
+          "monetary": 7
+        },
+        "key_entities": [
+          {
+            "name": "20",
+            "type": "date",
+            "connections": 7,
+            "confidence": 0.7
+          },
+          {
+            "name": "20",
+            "type": "date",
+            "connections": 7,
+            "confidence": 0.7
+          },
+          {
+            "name": "20",
+            "type": "date",
+            "connections": 7,
+            "confidence": 0.7
+          },
+          {
+            "name": "20",
+            "type": "date",
+            "connections": 7,
+            "confidence": 0.7
+          },
+          {
+            "name": "20",
+            "type": "date",
+            "connections": 7,
+            "confidence": 0.7
+          },
+          {
+            "name": "20",
+            "type": "date",
+            "connections": 7,
+            "confidence": 0.7
+          },
+          {
+            "name": "20",
+            "type": "date",
+            "connections": 7,
+            "confidence": 0.7
+          },
+          {
+            "name": "$1",
+            "type": "monetary",
+            "connections": 3,
+            "confidence": 0.8
+          },
+          {
+            "name": "$1",
+            "type": "monetary",
+            "connections": 3,
+            "confidence": 0.8
+          },
+          {
+            "name": "$1",
+            "type": "monetary",
+            "connections": 3,
+            "confidence": 0.8
+          }
+        ],
+        "entity_relationships": 25
+      },
+      "knowledge_insights": {
+        "reasoning_confidence": 0.47000000000000003,
+        "key_inferences": [
+          {
+            "type": "importance_inference",
+            "inference": "'20' is a central theme (appears 7 times)",
+            "confidence": 0.9,
+            "evidence": "Entity frequency across 7 documents",
+            "implications": "'20' likely plays a key role in the document collection"
+          },
+          {
+            "type": "importance_inference",
+            "inference": "'$1' is a central theme (appears 3 times)",
+            "confidence": 0.9,
+            "evidence": "Entity frequency across 3 documents",
+            "implications": "'$1' likely plays a key role in the document collection"
+          },
+          {
+            "type": "importance_inference",
+            "inference": "'$2' is a central theme (appears 2 times)",
+            "confidence": 0.8,
+            "evidence": "Entity frequency across 2 documents",
+            "implications": "'$2' likely plays a key role in the document collection"
+          },
+          {
+            "type": "pattern_inference",
+            "inference": "Cross-document entity frequency indicates thematic importance",
+            "confidence": 0.8,
+            "evidence": "Entities appearing in multiple documents are likely central themes",
+            "implications": "This pattern suggests underlying structure in the data"
+          },
+          {
+            "type": "pattern_inference",
+            "inference": "Document type determines content patterns",
+            "confidence": 0.7,
+            "evidence": "Documents cluster by type with shared characteristics",
+            "implications": "This pattern suggests underlying structure in the data"
+          }
+        ],
+        "logical_contradictions": 0,
+        "research_hypotheses": 8,
+        "knowledge_graph_density": 1.4680851063829787
+      },
+      "thematic_analysis": {
+        "primary_themes": [
+          {
+            "theme": "market",
+            "document_count": 2,
+            "documents": [
+              "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+              "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt"
+            ],
+            "prevalence": 0.6666666666666666
+          },
+          {
+            "theme": "data",
+            "document_count": 2,
+            "documents": [
+              "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+              "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt"
+            ],
+            "prevalence": 0.6666666666666666
+          }
+        ],
+        "theme_evolution": "Mixed thematic content with low consistency",
+        "thematic_coherence": 0.0425531914893617,
+        "ai_thematic_insights": {
+          "central_narrative": "Document collection covers multiple related business topics",
+          "thematic_gaps": [
+            "Additional context may be needed for complete understanding"
+          ],
+          "strategic_implications": [
+            "Themes suggest need for integrated analysis"
+          ],
+          "theme_relationships": [
+            "Themes appear to be interconnected through common entities"
+          ],
+          "business_relevance": "moderate",
+          "fallback_mode": true
+        }
+      },
+      "strategic_findings": [
+        {
+          "type": "research_opportunities",
+          "title": "High-Confidence Research Hypotheses",
+          "description": "8 testable hypotheses with high confidence",
+          "implications": "These represent clear opportunities for further investigation",
+          "confidence": 0.9,
+          "actionable": true
+        }
+      ],
+      "quality_assessment": {
+        "data_completeness": 0.875,
+        "analysis_depth": "comprehensive",
+        "confidence_metrics": {
+          "average_inference_confidence": 0.82,
+          "high_confidence_inferences_ratio": 0.8,
+          "overall_reasoning_confidence": 0.47000000000000003
+        }
+      }
+    },
+    "executive_summary": {
+      "summary_header": {
+        "title": "Executive Summary - Document Intelligence Analysis",
+        "session_id": "f79221a7-1066-40c2-ba17-eb5ad321b71e",
+        "analysis_scope": "3 documents analyzed",
+        "key_metrics": {
+          "documents_processed": 3,
+          "entities_identified": 14,
+          "insights_generated": 5
+        }
+      },
+      "key_findings": [
+        "High-confidence analysis identified 4 key business insights",
+        "Analysis reveals focus on date entities (7 identified)"
+      ],
+      "strategic_recommendations": [
+        {
+          "priority": "high",
+          "action": "Investigate high-confidence hypotheses",
+          "rationale": "5 hypotheses show strong potential for actionable insights",
+          "timeline": "short-term"
+        },
+        {
+          "priority": "medium",
+          "action": "Expand information collection",
+          "rationale": "Limited entity coverage suggests additional sources may provide value",
+          "timeline": "long-term"
+        }
+      ],
+      "risk_assessment": {
+        "risks": [],
+        "opportunities": [
+          "Research opportunities identified (8 testable hypotheses)"
+        ]
+      },
+      "next_steps": [
+        {
+          "step": "Review high-confidence insights",
+          "description": "Examine the most reliable findings for immediate action",
+          "owner": "Strategy Team",
+          "timeframe": "1-2 weeks"
+        },
+        {
+          "step": "Validate key hypotheses",
+          "description": "Test the most promising hypotheses with additional research",
+          "owner": "Research Team",
+          "timeframe": "4-6 weeks"
+        },
+        {
+          "step": "Address information gaps",
+          "description": "Collect additional data to resolve contradictions and fill gaps",
+          "owner": "Data Team",
+          "timeframe": "2-4 weeks"
+        }
+      ],
+      "confidence_assessment": {
+        "overall_confidence": 0.47000000000000003,
+        "data_quality": "medium",
+        "recommendation_reliability": "medium"
+      }
+    },
+    "actionable_insights": [
+      {
+        "type": "inference_insight",
+        "title": "Strategic Insight: '20' is a central theme (appears 7 times)...",
+        "description": "'20' is a central theme (appears 7 times)",
+        "evidence": "Entity frequency across 7 documents",
+        "confidence": 0.9,
+        "actionability": "high",
+        "recommended_action": "Focus strategic attention on this key theme",
+        "business_impact": "High potential for strategic advantage"
+      },
+      {
+        "type": "inference_insight",
+        "title": "Strategic Insight: '$1' is a central theme (appears 3 times)...",
+        "description": "'$1' is a central theme (appears 3 times)",
+        "evidence": "Entity frequency across 3 documents",
+        "confidence": 0.9,
+        "actionability": "high",
+        "recommended_action": "Focus strategic attention on this key theme",
+        "business_impact": "High potential for strategic advantage"
+      },
+      {
+        "type": "inference_insight",
+        "title": "Strategic Insight: '$2' is a central theme (appears 2 times)...",
+        "description": "'$2' is a central theme (appears 2 times)",
+        "evidence": "Entity frequency across 2 documents",
+        "confidence": 0.8,
+        "actionability": "high",
+        "recommended_action": "Focus strategic attention on this key theme",
+        "business_impact": "Moderate impact on business decisions"
+      },
+      {
+        "type": "inference_insight",
+        "title": "Strategic Insight: Cross-document entity frequency indicates thematic...",
+        "description": "Cross-document entity frequency indicates thematic importance",
+        "evidence": "Entities appearing in multiple documents are likely central themes",
+        "confidence": 0.8,
+        "actionability": "high",
+        "recommended_action": "Leverage identified pattern for process optimization",
+        "business_impact": "Moderate impact on business decisions"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "research",
+        "priority": "medium",
+        "title": "Investigate High-Confidence Hypotheses",
+        "description": "Test 8 promising hypotheses for strategic insights",
+        "specific_actions": [
+          "Design validation studies for top hypotheses",
+          "Collect additional supporting data",
+          "Conduct focused research initiatives"
+        ],
+        "expected_outcome": "Validated insights for strategic planning",
+        "timeframe": "4-8 weeks"
+      }
+    ],
+    "processing_pipeline": "ADK Multi-Agent System - Complete"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "similarity_matrix": {
+    "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt": {
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt": 1.0,
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt": 0.07777777777777778,
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt": 0.03333333333333333
+    },
+    "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt": {
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt": 0.07777777777777778,
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt": 1.0,
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt": 0.021052631578947368
+    },
+    "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt": {
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt": 0.03333333333333333,
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt": 0.021052631578947368,
+      "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt": 1.0
+    }
+  },
+  "clusters": [],
+  "common_themes": [
+    {
+      "theme": "market",
+      "document_count": 2,
+      "documents": [
+        "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+        "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt"
+      ],
+      "prevalence": 0.6666666666666666
+    },
+    {
+      "theme": "data",
+      "document_count": 2,
+      "documents": [
+        "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+        "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt"
+      ],
+      "prevalence": 0.6666666666666666
+    }
+  ],
+  "document_relationships": [],
+  "relationship_summary": "Analyzed 3 documents with 2 common themes"
+}

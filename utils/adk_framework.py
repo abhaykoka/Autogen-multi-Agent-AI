@@ -7,13 +7,12 @@ import asyncio
 import json
 import logging
 import time
+import os
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Any, Optional, Union
 from enum import Enum
 import google.generativeai as genai
-from google.cloud import aiplatform
-from google.cloud import logging as cloud_logging
 
 
 class AgentStatus(Enum):
@@ -67,10 +66,14 @@ class BaseAgent(ABC):
         self.logger = logging.getLogger(f"agent.{name}")
         self.session_id = None
         
-        # Initialize Gemini
-        genai.configure(api_key=config.get('google_api_key'))
+        # Initialize Gemini with API Key from config or environment
+        api_key = config.get('google_api_key') or os.environ.get('GOOGLE_API_KEY')
+        if not api_key:
+            self.logger.warning(f"Agent {name}: No Google API Key found in config or environment variables.")
+        
+        genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel(
-            config.get('gemini_model', 'gemini-1.5-pro')
+            config.get('gemini_model', 'gemini-1.5-flash')
         )
     
     @abstractmethod
@@ -111,9 +114,21 @@ class BaseAgent(ABC):
     async def generate_gemini_response(self, prompt: str, **kwargs) -> str:
         """Generate response using Gemini model"""
         try:
+            # Extract generation parameters
+            generation_config = {}
+            if 'temperature' in kwargs:
+                generation_config['temperature'] = kwargs.pop('temperature')
+            if 'max_output_tokens' in kwargs:
+                generation_config['max_output_tokens'] = kwargs.pop('max_output_tokens')
+            if 'top_p' in kwargs:
+                generation_config['top_p'] = kwargs.pop('top_p')
+            if 'top_k' in kwargs:
+                generation_config['top_k'] = kwargs.pop('top_k')
+                
             response = await asyncio.to_thread(
                 self.model.generate_content, 
                 prompt,
+                generation_config=generation_config,
                 **kwargs
             )
             return response.text
@@ -132,10 +147,7 @@ class AgentOrchestrator:
         self.execution_graph: Dict[str, List[str]] = {}
         self.logger = logging.getLogger("orchestrator")
         
-        # Initialize Google Cloud Logging
-        if config.get('use_cloud_logging', False):
-            client = cloud_logging.Client()
-            client.setup_logging()
+        # Cloud logging removed to rely on standard logging
     
     def register_agent(self, agent: BaseAgent):
         """Register an agent with the orchestrator"""
@@ -185,6 +197,75 @@ class AgentOrchestrator:
                         break
         
         return results
+
+    async def execute_pipeline(self, input_data: Any, pipeline_config: Dict[str, Any], session_id: str) -> AgentResult:
+        """Compatibility method for main.py to execute a linear pipeline"""
+        agents_list = pipeline_config.get('agents', [])
+        mode = pipeline_config.get('mode', 'sequential')
+        
+        # Map class names to registered agent names if needed
+        # main.py passes class names ['DocumentIngestionAgent', ...], but agents are registered with names like 'DocumentIngestionAgent' (same)
+        
+        # Build sequential workflow graph
+        workflow = {}
+        if mode == 'sequential' and len(agents_list) > 1:
+            for i in range(len(agents_list) - 1):
+                # Using class names as keys might be tricky if registered names differ
+                # In main.py: agents['ingestion'] = DocumentIngestionAgent(...)
+                # In config: name: "DocumentIngestionAgent"
+                # BaseAgent sets self.name from config.
+                
+                # We need to find the specific registered name that matches the class name or type
+                # For simplicity, assuming registered names match the list in pipeline_config
+                
+                # Actually, main.py registers agents. values() return the instances.
+                # Let's map class names to instance names
+                
+                # For now, let's just use the registered agents in order.
+                # If pipeline_config specifies class names, we need to match them.
+                pass
+
+        # Since main.py hardcodes the agent list as class names, but registered agents rely on instance names.
+        # Let's just create a sequential dependency of ALL registered agents for now, or match by name.
+        
+        # Better approach: main.py sends ['DocumentIngestionAgent', 'DocumentAnalysisAgent', ...]
+        # These match the 'name' field in config.
+        
+        if mode == 'sequential':
+            for i in range(1, len(agents_list)):
+                prev = agents_list[i-1]
+                curr = agents_list[i]
+                workflow[curr] = [prev]
+                
+        self.define_workflow(workflow)
+        
+        # Execute
+        results = await self.execute_workflow(input_data, session_id)
+        
+        # Wrap final result as expected by main.py
+        # main.py expects an object with .status and .output
+        
+        # Find the last agent's result as the 'final' output ??
+        # Or return a summary object.
+        messages = []
+        status = AgentStatus.COMPLETED
+        last_result = None
+        
+        for name, res in results.items():
+            if res.status == AgentStatus.ERROR:
+                status = AgentStatus.ERROR
+                return res # Return the error result directly? 
+            last_result = res
+            
+        # If success, return a composite result or the last one
+        return AgentResult(
+            agent_name="Orchestrator",
+            status=status,
+            output=results, # Return all results
+            execution_time=sum(r.execution_time for r in results.values()),
+            session_id=session_id
+        )
+
     
     def _get_execution_order(self) -> List[str]:
         """Determine optimal agent execution order based on dependencies"""
@@ -229,8 +310,6 @@ class AgentOrchestrator:
     
     def _should_halt_on_error(self, agent_name: str, error: Exception) -> bool:
         """Determine if workflow should halt on agent error"""
-        # For now, always halt on error
-        # In production, this could be more sophisticated
         return True
     
     async def send_message(self, message: AgentMessage):
@@ -260,7 +339,7 @@ class AgentOrchestrator:
 
 
 class ADKLogger:
-    """Enhanced logging for ADK agents with Google Cloud integration"""
+    """Enhanced logging for ADK agents"""
     
     def __init__(self, config: Dict[str, Any]):
         self.config = config

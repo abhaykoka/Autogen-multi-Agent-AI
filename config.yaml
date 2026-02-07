@@ -4,15 +4,13 @@ system:
   version: "1.0.0"
   description: "Multi-agent AI system for autonomous document processing and analysis"
 
-# Google ADK Configuration
+# Google ADK Configuration - Simplified for API Key use
 google_adk:
-  project_id: "your-google-cloud-project"
-  location: "us-central1"
   api_key_env: "GOOGLE_API_KEY"
   
 # Gemini Model Configuration  
 gemini:
-  model: "gemini-1.5-pro"
+  model: "gemini-1.5-flash"
   temperature: 0.3
   max_output_tokens: 8192
   safety_settings:
@@ -23,25 +21,25 @@ gemini:
 
 # Agent Configuration
 agents:
-  ingestion_agent:
+  ingestion:
     name: "DocumentIngestionAgent"
     description: "Processes and extracts content from PDF documents"
     max_concurrent_documents: 5
-    supported_formats: ["pdf", "docx", "txt"]
+    supported_formats: [".pdf", ".docx", ".txt"]
     
-  analysis_agent:
+  analysis:
     name: "DocumentAnalysisAgent"
     description: "Performs deep content analysis and entity extraction"
     analysis_depth: "comprehensive"
     entity_types: ["PERSON", "ORGANIZATION", "DATE", "LOCATION", "CONCEPT"]
     
-  reasoning_agent:
+  reasoning:
     name: "ReasoningAgent"
     description: "Synthesizes information and draws insights across documents"
-    reasoning_model: "gemini-1.5-pro"
+    reasoning_model: "gemini-1.5-flash"
     confidence_threshold: 0.7
     
-  response_agent:
+  response:
     name: "ResponseAgent"
     description: "Generates structured responses with citations"
     output_format: "json"
@@ -69,6 +67,12 @@ processing:
   max_file_size_mb: 100
   timeout_seconds: 300
   parallel_processing: true
+
+# Pipeline Configuration
+pipeline:
+  max_execution_time: 3600
+  save_intermediate_results: true
+  parallel_processing: false
 
 # Logging
 logging:

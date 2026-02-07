@@ -1,0 +1,695 @@
+2026-02-07 12:25:31,647 - agent.DocumentIngestionAgent - WARNING - Agent DocumentIngestionAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:31,649 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['pdf', 'docx', 'txt']
+2026-02-07 12:25:31,661 - agent.DocumentAnalysisAgent - WARNING - Agent DocumentAnalysisAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:31,662 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:25:31,663 - agent.ReasoningAgent - WARNING - Agent ReasoningAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:31,664 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:25:31,664 - agent.ResponseAgent - WARNING - Agent ResponseAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:31,665 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:25:31,665 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:25:31,665 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:25:31,666 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:25:31,666 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:25:31,666 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:25:31,674 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session 9bcaec15-40f2-4236-98c5-35e341cf0e85
+2026-02-07 12:25:31,675 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:25:31,675 - AgenticDocumentIntelligence - ERROR - Pipeline execution failed: 'pipeline'
+2026-02-07 12:25:51,242 - agent.DocumentIngestionAgent - WARNING - Agent DocumentIngestionAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:51,243 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['pdf', 'docx', 'txt']
+2026-02-07 12:25:51,243 - agent.DocumentAnalysisAgent - WARNING - Agent DocumentAnalysisAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:51,244 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:25:51,244 - agent.ReasoningAgent - WARNING - Agent ReasoningAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:51,245 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:25:51,245 - agent.ResponseAgent - WARNING - Agent ResponseAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:25:51,246 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:25:51,246 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:25:51,247 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:25:51,247 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:25:51,247 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:25:51,247 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:25:51,254 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session f06de677-eb4e-45f0-ae19-ed7aa93587d8
+2026-02-07 12:25:51,254 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:25:51,255 - AgenticDocumentIntelligence - ERROR - Pipeline execution failed: 'AgentOrchestrator' object has no attribute 'execute_pipeline'
+2026-02-07 12:26:25,273 - agent.DocumentIngestionAgent - WARNING - Agent DocumentIngestionAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:26:25,274 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['pdf', 'docx', 'txt']
+2026-02-07 12:26:25,275 - agent.DocumentAnalysisAgent - WARNING - Agent DocumentAnalysisAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:26:25,275 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:26:25,276 - agent.ReasoningAgent - WARNING - Agent ReasoningAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:26:25,276 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:26:25,277 - agent.ResponseAgent - WARNING - Agent ResponseAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:26:25,278 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:26:25,278 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:26:25,278 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:26:25,278 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:26:25,279 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:26:25,279 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:26:25,285 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session 47449315-95f0-42e2-9202-822a4b09cd46
+2026-02-07 12:26:25,285 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:26:25,286 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:26:25,286 - orchestrator - INFO - Executing workflow for session 47449315-95f0-42e2-9202-822a4b09cd46
+2026-02-07 12:26:25,287 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:26:25,287 - agent.DocumentIngestionAgent - INFO - Starting processing for session 47449315-95f0-42e2-9202-822a4b09cd46
+2026-02-07 12:26:25,288 - agent.DocumentIngestionAgent - WARNING - Validation failed for data\demo_documents: Unsupported file format: 
+2026-02-07 12:26:25,288 - orchestrator - INFO - Agent DocumentIngestionAgent completed in 0.00s
+2026-02-07 12:26:25,288 - agent.DocumentAnalysisAgent - INFO - Starting processing for session 47449315-95f0-42e2-9202-822a4b09cd46
+2026-02-07 12:26:25,289 - orchestrator - INFO - Agent DocumentAnalysisAgent completed in 0.00s
+2026-02-07 12:26:25,289 - agent.ReasoningAgent - INFO - Starting processing for session 47449315-95f0-42e2-9202-822a4b09cd46
+2026-02-07 12:26:25,289 - orchestrator - INFO - Agent ReasoningAgent completed in 0.00s
+2026-02-07 12:26:25,290 - agent.ResponseAgent - INFO - Starting processing for session 47449315-95f0-42e2-9202-822a4b09cd46
+2026-02-07 12:26:25,290 - orchestrator - INFO - Agent ResponseAgent completed in 0.00s
+2026-02-07 12:26:25,290 - AgenticDocumentIntelligence - ERROR - Pipeline failed with status: AgentStatus.ERROR
+2026-02-07 12:27:32,141 - agent.DocumentIngestionAgent - WARNING - Agent DocumentIngestionAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:32,142 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['pdf', 'docx', 'txt']
+2026-02-07 12:27:32,143 - agent.DocumentAnalysisAgent - WARNING - Agent DocumentAnalysisAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:32,144 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:27:32,145 - agent.ReasoningAgent - WARNING - Agent ReasoningAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:32,146 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:27:32,146 - agent.ResponseAgent - WARNING - Agent ResponseAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:32,148 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:27:32,148 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:27:32,149 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:27:32,149 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:27:32,149 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:27:32,149 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:27:32,156 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session b68b63c0-1538-4323-b1bb-578fffa5d492
+2026-02-07 12:27:32,156 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:27:32,157 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:27:32,157 - orchestrator - INFO - Executing workflow for session b68b63c0-1538-4323-b1bb-578fffa5d492
+2026-02-07 12:27:32,157 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:27:32,158 - agent.DocumentIngestionAgent - INFO - Starting processing for session b68b63c0-1538-4323-b1bb-578fffa5d492
+2026-02-07 12:27:32,159 - orchestrator - INFO - Agent DocumentIngestionAgent completed in 0.00s
+2026-02-07 12:27:32,160 - agent.DocumentAnalysisAgent - INFO - Starting processing for session b68b63c0-1538-4323-b1bb-578fffa5d492
+2026-02-07 12:27:32,160 - orchestrator - INFO - Agent DocumentAnalysisAgent completed in 0.00s
+2026-02-07 12:27:32,160 - agent.ReasoningAgent - INFO - Starting processing for session b68b63c0-1538-4323-b1bb-578fffa5d492
+2026-02-07 12:27:32,160 - orchestrator - INFO - Agent ReasoningAgent completed in 0.00s
+2026-02-07 12:27:32,161 - agent.ResponseAgent - INFO - Starting processing for session b68b63c0-1538-4323-b1bb-578fffa5d492
+2026-02-07 12:27:32,161 - orchestrator - INFO - Agent ResponseAgent completed in 0.00s
+2026-02-07 12:27:32,161 - AgenticDocumentIntelligence - ERROR - Pipeline failed with status: AgentStatus.ERROR
+2026-02-07 12:27:55,421 - agent.DocumentIngestionAgent - WARNING - Agent DocumentIngestionAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:55,423 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['.pdf', '.docx', '.txt']
+2026-02-07 12:27:55,423 - agent.DocumentAnalysisAgent - WARNING - Agent DocumentAnalysisAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:55,424 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:27:55,425 - agent.ReasoningAgent - WARNING - Agent ReasoningAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:55,426 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:27:55,427 - agent.ResponseAgent - WARNING - Agent ResponseAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:27:55,428 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:27:55,428 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:27:55,429 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:27:55,430 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:27:55,430 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:27:55,431 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:27:55,439 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session 5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,440 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:27:55,441 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:27:55,441 - orchestrator - INFO - Executing workflow for session 5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,441 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:27:55,442 - agent.DocumentIngestionAgent - INFO - Starting processing for session 5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,447 - agent.DocumentIngestionAgent - INFO - Processing 3 documents for session 5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,449 - document_processor - INFO - Processed ai_market_research.txt: 3 chunks, 2104 characters
+2026-02-07 12:27:55,450 - document_processor - INFO - Processed business_report_q3_2024.txt: 2 chunks, 1397 characters
+2026-02-07 12:27:55,451 - document_processor - INFO - Processed technical_architecture.txt: 2 chunks, 1445 characters
+2026-02-07 12:27:55,451 - document_processor - INFO - Batch processed 3/3 documents
+2026-02-07 12:27:55,468 - agent.DocumentIngestionAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,469 - agent.DocumentIngestionAgent - WARNING - AI insights generation failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,474 - agent.DocumentIngestionAgent - INFO - Saved ingestion results to output\ingestion\5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,474 - agent.DocumentIngestionAgent - INFO - Successfully processed 3 documents with 7 total chunks
+2026-02-07 12:27:55,475 - orchestrator - INFO - Agent DocumentIngestionAgent completed in 0.03s
+2026-02-07 12:27:55,475 - agent.DocumentAnalysisAgent - INFO - Starting processing for session 5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,475 - agent.DocumentAnalysisAgent - INFO - Analyzing document: ai_market_research.txt
+2026-02-07 12:27:55,476 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,476 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,478 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,478 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,479 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,479 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,480 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,480 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,481 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,481 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,482 - agent.DocumentAnalysisAgent - INFO - Analyzing document: business_report_q3_2024.txt
+2026-02-07 12:27:55,483 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,483 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,484 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,484 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,485 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,485 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,486 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,486 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,487 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,487 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,488 - agent.DocumentAnalysisAgent - INFO - Analyzing document: technical_architecture.txt
+2026-02-07 12:27:55,489 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,489 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,490 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,490 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,491 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,491 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,491 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,492 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,492 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,493 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,493 - agent.DocumentAnalysisAgent - INFO - Generated 7 embedding references
+2026-02-07 12:27:55,494 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,494 - agent.DocumentAnalysisAgent - WARNING - AI insights generation failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,502 - agent.DocumentAnalysisAgent - INFO - Saved analysis results to output\analysis\5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,502 - agent.DocumentAnalysisAgent - INFO - Analysis completed for 3 documents with 12 entities extracted
+2026-02-07 12:27:55,502 - orchestrator - INFO - Agent DocumentAnalysisAgent completed in 0.03s
+2026-02-07 12:27:55,503 - agent.ReasoningAgent - INFO - Starting processing for session 5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,503 - agent.ReasoningAgent - INFO - Built knowledge graph with 47 nodes and 69 edges
+2026-02-07 12:27:55,504 - agent.ReasoningAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,505 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,505 - agent.ReasoningAgent - ERROR - Gemini API error: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,506 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: GenerativeModel.generate_content() got an unexpected keyword argument 'temperature'
+2026-02-07 12:27:55,507 - agent.ReasoningAgent - ERROR - Error in ReasoningAgent: 'set' object is not subscriptable
+2026-02-07 12:27:55,507 - orchestrator - INFO - Agent ReasoningAgent completed in 0.00s
+2026-02-07 12:27:55,507 - agent.ResponseAgent - INFO - Starting processing for session 5edca5c7-d0f0-43b3-b65e-7cf4bfb9f2ad
+2026-02-07 12:27:55,508 - orchestrator - INFO - Agent ResponseAgent completed in 0.00s
+2026-02-07 12:27:55,508 - AgenticDocumentIntelligence - ERROR - Pipeline failed with status: AgentStatus.ERROR
+2026-02-07 12:29:44,940 - agent.DocumentIngestionAgent - WARNING - Agent DocumentIngestionAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:29:44,942 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['.pdf', '.docx', '.txt']
+2026-02-07 12:29:44,943 - agent.DocumentAnalysisAgent - WARNING - Agent DocumentAnalysisAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:29:44,944 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:29:44,945 - agent.ReasoningAgent - WARNING - Agent ReasoningAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:29:44,946 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:29:44,947 - agent.ResponseAgent - WARNING - Agent ResponseAgent: No Google API Key found in config or environment variables.
+2026-02-07 12:29:44,948 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:29:44,948 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:29:44,949 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:29:44,950 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:29:44,950 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:29:44,951 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:29:44,958 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session 38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:29:44,959 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:29:44,960 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:29:44,961 - orchestrator - INFO - Executing workflow for session 38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:29:44,962 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:29:44,962 - agent.DocumentIngestionAgent - INFO - Starting processing for session 38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:29:44,968 - agent.DocumentIngestionAgent - INFO - Processing 3 documents for session 38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:29:44,970 - document_processor - INFO - Processed ai_market_research.txt: 3 chunks, 2104 characters
+2026-02-07 12:29:44,971 - document_processor - INFO - Processed business_report_q3_2024.txt: 2 chunks, 1397 characters
+2026-02-07 12:29:44,973 - document_processor - INFO - Processed technical_architecture.txt: 2 chunks, 1445 characters
+2026-02-07 12:29:44,973 - document_processor - INFO - Batch processed 3/3 documents
+2026-02-07 12:29:57,024 - agent.DocumentIngestionAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:29:57,026 - agent.DocumentIngestionAgent - WARNING - AI insights generation failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:29:57,047 - agent.DocumentIngestionAgent - INFO - Saved ingestion results to output\ingestion\38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:29:57,049 - agent.DocumentIngestionAgent - INFO - Successfully processed 3 documents with 7 total chunks
+2026-02-07 12:29:57,051 - orchestrator - INFO - Agent DocumentIngestionAgent completed in 12.09s
+2026-02-07 12:29:57,051 - agent.DocumentAnalysisAgent - INFO - Starting processing for session 38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:29:57,052 - agent.DocumentAnalysisAgent - INFO - Analyzing document: ai_market_research.txt
+2026-02-07 12:30:09,010 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:09,011 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:21,217 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:21,218 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:33,474 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:33,475 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:40,986 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['.pdf', '.docx', '.txt']
+2026-02-07 12:30:40,987 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:30:40,988 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:30:40,988 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:30:40,989 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:30:40,989 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:30:40,989 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:30:40,990 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:30:40,990 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:30:40,996 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session eeb081b4-c8ca-44f0-b06f-014677a38135
+2026-02-07 12:30:40,996 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:30:40,997 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:30:40,997 - orchestrator - INFO - Executing workflow for session eeb081b4-c8ca-44f0-b06f-014677a38135
+2026-02-07 12:30:40,998 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:30:40,998 - agent.DocumentIngestionAgent - INFO - Starting processing for session eeb081b4-c8ca-44f0-b06f-014677a38135
+2026-02-07 12:30:41,005 - agent.DocumentIngestionAgent - INFO - Processing 3 documents for session eeb081b4-c8ca-44f0-b06f-014677a38135
+2026-02-07 12:30:41,008 - document_processor - INFO - Processed ai_market_research.txt: 3 chunks, 2104 characters
+2026-02-07 12:30:41,012 - document_processor - INFO - Processed business_report_q3_2024.txt: 2 chunks, 1397 characters
+2026-02-07 12:30:41,014 - document_processor - INFO - Processed technical_architecture.txt: 2 chunks, 1445 characters
+2026-02-07 12:30:41,015 - document_processor - INFO - Batch processed 3/3 documents
+2026-02-07 12:30:45,509 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:45,509 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:57,445 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:57,446 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:30:57,447 - agent.DocumentAnalysisAgent - INFO - Analyzing document: business_report_q3_2024.txt
+2026-02-07 12:31:09,491 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:09,491 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:21,667 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:21,668 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:33,869 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:33,870 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:45,823 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:45,824 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:57,766 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:57,767 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:31:57,769 - agent.DocumentAnalysisAgent - INFO - Analyzing document: technical_architecture.txt
+2026-02-07 12:32:09,808 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:09,809 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:21,816 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:21,817 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:34,065 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:34,066 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:46,130 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:46,131 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:58,107 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:58,109 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:32:58,110 - agent.DocumentAnalysisAgent - INFO - Generated 7 embedding references
+2026-02-07 12:33:10,185 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:10,186 - agent.DocumentAnalysisAgent - WARNING - AI insights generation failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:10,207 - agent.DocumentAnalysisAgent - INFO - Saved analysis results to output\analysis\38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:33:10,207 - agent.DocumentAnalysisAgent - INFO - Analysis completed for 3 documents with 12 entities extracted
+2026-02-07 12:33:10,208 - orchestrator - INFO - Agent DocumentAnalysisAgent completed in 193.16s
+2026-02-07 12:33:10,208 - agent.ReasoningAgent - INFO - Starting processing for session 38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:33:10,209 - agent.ReasoningAgent - INFO - Built knowledge graph with 47 nodes and 69 edges
+2026-02-07 12:33:22,346 - agent.ReasoningAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:22,346 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:34,337 - agent.ReasoningAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:34,338 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:34,370 - agent.ReasoningAgent - INFO - Saved reasoning results to output\reasoning\38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:33:34,371 - agent.ReasoningAgent - INFO - Reasoning completed with 47 nodes, 5 inferences, and 0 contradictions
+2026-02-07 12:33:34,371 - orchestrator - INFO - Agent ReasoningAgent completed in 24.16s
+2026-02-07 12:33:34,372 - agent.ResponseAgent - INFO - Starting processing for session 38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:33:46,273 - agent.ResponseAgent - ERROR - Gemini API error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:46,274 - agent.ResponseAgent - WARNING - AI thematic insights generation failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-02-07 12:33:46,309 - agent.ResponseAgent - INFO - Saved all response outputs to output\responses\38a92835-da6a-475e-a731-c550f2a85844
+2026-02-07 12:33:46,310 - agent.ResponseAgent - INFO - Response generation completed with 4 insights and 1 recommendations
+2026-02-07 12:33:46,311 - orchestrator - INFO - Agent ResponseAgent completed in 11.94s
+2026-02-07 12:33:46,312 - AgenticDocumentIntelligence - INFO - Pipeline completed successfully in 241.35 seconds
+2026-02-07 12:33:46,314 - AgenticDocumentIntelligence - ERROR - Failed to save session results: Object of type AgentResult is not JSON serializable
+2026-02-07 12:33:46,317 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:33:46,318 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:33:46,319 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:33:46,320 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:34:59,433 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['.pdf', '.docx', '.txt']
+2026-02-07 12:34:59,434 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:34:59,435 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:34:59,436 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:34:59,437 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:34:59,437 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:34:59,438 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:34:59,438 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:34:59,439 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:34:59,449 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session 44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:34:59,450 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:34:59,451 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:34:59,452 - orchestrator - INFO - Executing workflow for session 44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:34:59,452 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:34:59,453 - agent.DocumentIngestionAgent - INFO - Starting processing for session 44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:34:59,459 - agent.DocumentIngestionAgent - INFO - Processing 3 documents for session 44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:34:59,461 - document_processor - INFO - Processed ai_market_research.txt: 3 chunks, 2104 characters
+2026-02-07 12:34:59,462 - document_processor - INFO - Processed business_report_q3_2024.txt: 2 chunks, 1397 characters
+2026-02-07 12:34:59,464 - document_processor - INFO - Processed technical_architecture.txt: 2 chunks, 1445 characters
+2026-02-07 12:34:59,464 - document_processor - INFO - Batch processed 3/3 documents
+2026-02-07 12:34:59,847 - agent.DocumentIngestionAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:34:59,848 - agent.DocumentIngestionAgent - WARNING - AI insights generation failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:34:59,867 - agent.DocumentIngestionAgent - INFO - Saved ingestion results to output\ingestion\44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:34:59,869 - agent.DocumentIngestionAgent - INFO - Successfully processed 3 documents with 7 total chunks
+2026-02-07 12:34:59,869 - orchestrator - INFO - Agent DocumentIngestionAgent completed in 0.42s
+2026-02-07 12:34:59,870 - agent.DocumentAnalysisAgent - INFO - Starting processing for session 44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:34:59,872 - agent.DocumentAnalysisAgent - INFO - Analyzing document: ai_market_research.txt
+2026-02-07 12:35:00,155 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:00,155 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:00,295 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:00,296 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:00,597 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:00,597 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:00,722 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:00,722 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,035 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,036 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,037 - agent.DocumentAnalysisAgent - INFO - Analyzing document: business_report_q3_2024.txt
+2026-02-07 12:35:01,157 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,158 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,471 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,472 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,587 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,588 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,883 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:01,883 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,021 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,021 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,022 - agent.DocumentAnalysisAgent - INFO - Analyzing document: technical_architecture.txt
+2026-02-07 12:35:02,306 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,307 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,504 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,505 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,727 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,728 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,924 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:02,924 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,150 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,151 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,152 - agent.DocumentAnalysisAgent - INFO - Generated 7 embedding references
+2026-02-07 12:35:03,353 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,354 - agent.DocumentAnalysisAgent - WARNING - AI insights generation failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,379 - agent.DocumentAnalysisAgent - INFO - Saved analysis results to output\analysis\44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:35:03,381 - agent.DocumentAnalysisAgent - INFO - Analysis completed for 3 documents with 12 entities extracted
+2026-02-07 12:35:03,381 - orchestrator - INFO - Agent DocumentAnalysisAgent completed in 3.51s
+2026-02-07 12:35:03,382 - agent.ReasoningAgent - INFO - Starting processing for session 44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:35:03,383 - agent.ReasoningAgent - INFO - Built knowledge graph with 47 nodes and 69 edges
+2026-02-07 12:35:03,628 - agent.ReasoningAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,629 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,834 - agent.ReasoningAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,835 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:03,855 - agent.ReasoningAgent - INFO - Saved reasoning results to output\reasoning\44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:35:03,855 - agent.ReasoningAgent - INFO - Reasoning completed with 47 nodes, 5 inferences, and 0 contradictions
+2026-02-07 12:35:03,856 - orchestrator - INFO - Agent ReasoningAgent completed in 0.47s
+2026-02-07 12:35:03,856 - agent.ResponseAgent - INFO - Starting processing for session 44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:35:04,042 - agent.ResponseAgent - ERROR - Gemini API error: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:04,042 - agent.ResponseAgent - WARNING - AI thematic insights generation failed: 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:04,077 - agent.ResponseAgent - INFO - Saved all response outputs to output\responses\44963f0f-ff01-43db-95f0-af1000d4f470
+2026-02-07 12:35:04,077 - agent.ResponseAgent - INFO - Response generation completed with 4 insights and 1 recommendations
+2026-02-07 12:35:04,078 - orchestrator - INFO - Agent ResponseAgent completed in 0.22s
+2026-02-07 12:35:04,078 - AgenticDocumentIntelligence - INFO - Pipeline completed successfully in 4.63 seconds
+2026-02-07 12:35:04,080 - AgenticDocumentIntelligence - ERROR - Failed to save session results: Object of type AgentResult is not JSON serializable
+2026-02-07 12:35:04,082 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:35:04,084 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:35:04,086 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:35:04,087 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:35:41,627 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['.pdf', '.docx', '.txt']
+2026-02-07 12:35:41,628 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:35:41,629 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:35:41,630 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:35:41,631 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:35:41,632 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:35:41,632 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:35:41,633 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:35:41,634 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:35:41,640 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:41,640 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:35:41,641 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:35:41,642 - orchestrator - INFO - Executing workflow for session f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:41,643 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:35:41,643 - agent.DocumentIngestionAgent - INFO - Starting processing for session f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:41,648 - agent.DocumentIngestionAgent - INFO - Processing 3 documents for session f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:41,650 - document_processor - INFO - Processed ai_market_research.txt: 3 chunks, 2104 characters
+2026-02-07 12:35:41,651 - document_processor - INFO - Processed business_report_q3_2024.txt: 2 chunks, 1397 characters
+2026-02-07 12:35:41,653 - document_processor - INFO - Processed technical_architecture.txt: 2 chunks, 1445 characters
+2026-02-07 12:35:41,653 - document_processor - INFO - Batch processed 3/3 documents
+2026-02-07 12:35:42,233 - agent.DocumentIngestionAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:42,234 - agent.DocumentIngestionAgent - WARNING - AI insights generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:42,252 - agent.DocumentIngestionAgent - INFO - Saved ingestion results to output\ingestion\f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:42,252 - agent.DocumentIngestionAgent - INFO - Successfully processed 3 documents with 7 total chunks
+2026-02-07 12:35:42,253 - orchestrator - INFO - Agent DocumentIngestionAgent completed in 0.61s
+2026-02-07 12:35:42,253 - agent.DocumentAnalysisAgent - INFO - Starting processing for session f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:42,253 - agent.DocumentAnalysisAgent - INFO - Analyzing document: ai_market_research.txt
+2026-02-07 12:35:42,540 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:42,541 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:42,747 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:42,747 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:42,953 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:42,955 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,258 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,259 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,463 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,463 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,464 - agent.DocumentAnalysisAgent - INFO - Analyzing document: business_report_q3_2024.txt
+2026-02-07 12:35:43,772 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,773 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,884 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:43,884 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,282 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,283 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,487 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,487 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,794 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,795 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,795 - agent.DocumentAnalysisAgent - INFO - Analyzing document: technical_architecture.txt
+2026-02-07 12:35:44,924 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:44,925 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,306 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,306 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,510 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,511 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,817 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,818 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,937 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,937 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:45,938 - agent.DocumentAnalysisAgent - INFO - Generated 7 embedding references
+2026-02-07 12:35:46,248 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,249 - agent.DocumentAnalysisAgent - WARNING - AI insights generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,257 - agent.DocumentAnalysisAgent - INFO - Saved analysis results to output\analysis\f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:46,257 - agent.DocumentAnalysisAgent - INFO - Analysis completed for 3 documents with 12 entities extracted
+2026-02-07 12:35:46,258 - orchestrator - INFO - Agent DocumentAnalysisAgent completed in 4.00s
+2026-02-07 12:35:46,258 - agent.ReasoningAgent - INFO - Starting processing for session f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:46,259 - agent.ReasoningAgent - INFO - Built knowledge graph with 47 nodes and 69 edges
+2026-02-07 12:35:46,434 - agent.ReasoningAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,434 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,687 - agent.ReasoningAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,687 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,719 - agent.ReasoningAgent - INFO - Saved reasoning results to output\reasoning\f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:46,719 - agent.ReasoningAgent - INFO - Reasoning completed with 47 nodes, 5 inferences, and 0 contradictions
+2026-02-07 12:35:46,720 - orchestrator - INFO - Agent ReasoningAgent completed in 0.46s
+2026-02-07 12:35:46,720 - agent.ResponseAgent - INFO - Starting processing for session f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:46,855 - agent.ResponseAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,856 - agent.ResponseAgent - WARNING - AI thematic insights generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:35:46,878 - agent.ResponseAgent - INFO - Saved all response outputs to output\responses\f79221a7-1066-40c2-ba17-eb5ad321b71e
+2026-02-07 12:35:46,880 - agent.ResponseAgent - INFO - Response generation completed with 4 insights and 1 recommendations
+2026-02-07 12:35:46,880 - orchestrator - INFO - Agent ResponseAgent completed in 0.16s
+2026-02-07 12:35:46,881 - AgenticDocumentIntelligence - INFO - Pipeline completed successfully in 5.24 seconds
+2026-02-07 12:35:46,882 - AgenticDocumentIntelligence - ERROR - Failed to save session results: Object of type AgentResult is not JSON serializable
+2026-02-07 12:35:46,907 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:35:46,909 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:35:46,911 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:35:46,912 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:41:04,461 - agent.DocumentIngestionAgent - INFO - Initialized DocumentIngestionAgent with support for ['.pdf', '.docx', '.txt']
+2026-02-07 12:41:04,463 - agent.DocumentAnalysisAgent - INFO - Initialized DocumentAnalysisAgent with comprehensive analysis depth
+2026-02-07 12:41:04,464 - agent.ReasoningAgent - INFO - Initialized ReasoningAgent with comprehensive reasoning mode
+2026-02-07 12:41:04,465 - agent.ResponseAgent - INFO - Initialized ResponseAgent with comprehensive response mode
+2026-02-07 12:41:04,465 - orchestrator - INFO - Registered agent: DocumentIngestionAgent
+2026-02-07 12:41:04,466 - orchestrator - INFO - Registered agent: DocumentAnalysisAgent
+2026-02-07 12:41:04,466 - orchestrator - INFO - Registered agent: ReasoningAgent
+2026-02-07 12:41:04,468 - orchestrator - INFO - Registered agent: ResponseAgent
+2026-02-07 12:41:04,468 - AgenticDocumentIntelligence - INFO - Agentic Document Intelligence System initialized
+2026-02-07 12:41:04,488 - AgenticDocumentIntelligence - INFO - Starting document processing pipeline for session 67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:04,489 - AgenticDocumentIntelligence - INFO - Input path: data\demo_documents
+2026-02-07 12:41:04,490 - orchestrator - INFO - Defined workflow: {'DocumentAnalysisAgent': ['DocumentIngestionAgent'], 'ReasoningAgent': ['DocumentAnalysisAgent'], 'ResponseAgent': ['ReasoningAgent']}
+2026-02-07 12:41:04,490 - orchestrator - INFO - Executing workflow for session 67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:04,491 - orchestrator - INFO - Execution order: ['DocumentIngestionAgent', 'DocumentAnalysisAgent', 'ReasoningAgent', 'ResponseAgent']
+2026-02-07 12:41:04,491 - agent.DocumentIngestionAgent - INFO - Starting processing for session 67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:04,499 - agent.DocumentIngestionAgent - INFO - Processing 3 documents for session 67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:04,502 - document_processor - INFO - Processed ai_market_research.txt: 3 chunks, 2104 characters
+2026-02-07 12:41:04,504 - document_processor - INFO - Processed business_report_q3_2024.txt: 2 chunks, 1397 characters
+2026-02-07 12:41:04,506 - document_processor - INFO - Processed technical_architecture.txt: 2 chunks, 1445 characters
+2026-02-07 12:41:04,506 - document_processor - INFO - Batch processed 3/3 documents
+2026-02-07 12:41:05,012 - agent.DocumentIngestionAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,013 - agent.DocumentIngestionAgent - WARNING - AI insights generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,033 - agent.DocumentIngestionAgent - INFO - Saved ingestion results to output\ingestion\67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:05,034 - agent.DocumentIngestionAgent - INFO - Successfully processed 3 documents with 7 total chunks
+2026-02-07 12:41:05,034 - orchestrator - INFO - Agent DocumentIngestionAgent completed in 0.54s
+2026-02-07 12:41:05,035 - agent.DocumentAnalysisAgent - INFO - Starting processing for session 67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:05,035 - agent.DocumentAnalysisAgent - INFO - Analyzing document: ai_market_research.txt
+2026-02-07 12:41:05,320 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,321 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,523 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,524 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,756 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,756 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,956 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:05,956 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,240 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,240 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,241 - agent.DocumentAnalysisAgent - INFO - Analyzing document: business_report_q3_2024.txt
+2026-02-07 12:41:06,438 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,439 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,553 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,553 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,680 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,681 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,969 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:06,969 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,161 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,162 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,162 - agent.DocumentAnalysisAgent - INFO - Analyzing document: technical_architecture.txt
+2026-02-07 12:41:07,470 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,471 - agent.DocumentAnalysisAgent - WARNING - Entity extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,688 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,690 - agent.DocumentAnalysisAgent - WARNING - Topic analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,879 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:07,879 - agent.DocumentAnalysisAgent - WARNING - Sentiment analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,185 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,186 - agent.DocumentAnalysisAgent - WARNING - Keyword extraction failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,391 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,392 - agent.DocumentAnalysisAgent - WARNING - Document classification failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,393 - agent.DocumentAnalysisAgent - INFO - Generated 7 embedding references
+2026-02-07 12:41:08,597 - agent.DocumentAnalysisAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,597 - agent.DocumentAnalysisAgent - WARNING - AI insights generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,604 - agent.DocumentAnalysisAgent - INFO - Saved analysis results to output\analysis\67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:08,605 - agent.DocumentAnalysisAgent - INFO - Analysis completed for 3 documents with 12 entities extracted
+2026-02-07 12:41:08,605 - orchestrator - INFO - Agent DocumentAnalysisAgent completed in 3.57s
+2026-02-07 12:41:08,605 - agent.ReasoningAgent - INFO - Starting processing for session 67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:08,606 - agent.ReasoningAgent - INFO - Built knowledge graph with 47 nodes and 69 edges
+2026-02-07 12:41:08,929 - agent.ReasoningAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:08,929 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:09,109 - agent.ReasoningAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:09,110 - agent.ReasoningAgent - WARNING - Causal relationship analysis failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:09,141 - agent.ReasoningAgent - INFO - Saved reasoning results to output\reasoning\67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:09,141 - agent.ReasoningAgent - INFO - Reasoning completed with 47 nodes, 5 inferences, and 0 contradictions
+2026-02-07 12:41:09,142 - orchestrator - INFO - Agent ReasoningAgent completed in 0.54s
+2026-02-07 12:41:09,142 - agent.ResponseAgent - INFO - Starting processing for session 67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:09,346 - agent.ResponseAgent - ERROR - Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:09,347 - agent.ResponseAgent - WARNING - AI thematic insights generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-07 12:41:09,364 - agent.ResponseAgent - INFO - Saved all response outputs to output\responses\67aca721-3419-4939-94fe-69306156c4e5
+2026-02-07 12:41:09,365 - agent.ResponseAgent - INFO - Response generation completed with 4 insights and 1 recommendations
+2026-02-07 12:41:09,365 - orchestrator - INFO - Agent ResponseAgent completed in 0.22s
+2026-02-07 12:41:09,365 - AgenticDocumentIntelligence - INFO - Pipeline completed successfully in 4.88 seconds
+2026-02-07 12:41:09,368 - AgenticDocumentIntelligence - ERROR - Failed to save session results: Object of type AgentResult is not JSON serializable
+2026-02-07 12:41:09,370 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:41:09,371 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:41:09,372 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)
+2026-02-07 12:41:09,373 - AgenticDocumentIntelligence - ERROR - Query processing failed: Expecting value: line 2 column 29 (char 30)

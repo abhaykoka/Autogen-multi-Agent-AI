@@ -1078,10 +1078,10 @@ class ReasoningAgent(BaseAgent):
                             'start_entity': node['label'],
                             'reasoning_path': [
                                 f"Entity '{node['label']}' appears in documents",
-                                f"These documents also contain: {', '.join(set(related_entities)[:5])}",
+                                f"These documents also contain: {', '.join(list(set(related_entities))[:5])}",
                                 f"Therefore, '{node['label']}' is contextually related to these entities"
                             ],
-                            'conclusion': f"'{node['label']}' operates in the context of {', '.join(set(related_entities)[:3])}",
+                            'conclusion': f"'{node['label']}' operates in the context of {', '.join(list(set(related_entities))[:3])}",
                             'confidence': node['properties'].get('confidence', 0.5)
                         }
                         reasoning_chains.append(chain)

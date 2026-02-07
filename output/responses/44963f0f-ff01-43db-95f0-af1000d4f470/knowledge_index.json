@@ -1,0 +1,534 @@
+{
+  "entities": {
+    "20": {
+      "type": "date",
+      "confidence": 0.7,
+      "node_id": "entity_20"
+    },
+    "$1": {
+      "type": "monetary",
+      "confidence": 0.8,
+      "node_id": "entity_22"
+    },
+    "$2": {
+      "type": "monetary",
+      "confidence": 0.8,
+      "node_id": "entity_25"
+    },
+    "$600": {
+      "type": "monetary",
+      "confidence": 0.8,
+      "node_id": "entity_23"
+    },
+    "$450": {
+      "type": "monetary",
+      "confidence": 0.8,
+      "node_id": "entity_24"
+    }
+  },
+  "documents": {
+    "ai_market_research.txt": {
+      "document_type": "other",
+      "sentiment": "neutral",
+      "node_id": "doc_0"
+    },
+    "business_report_q3_2024.txt": {
+      "document_type": "report",
+      "sentiment": "neutral",
+      "node_id": "doc_16"
+    },
+    "technical_architecture.txt": {
+      "document_type": "other",
+      "sentiment": "neutral",
+      "node_id": "doc_36"
+    }
+  },
+  "concepts": {
+    "adoption": {
+      "concept_type": "general",
+      "node_id": "keyword_11"
+    },
+    "rate": {
+      "concept_type": "main_topic",
+      "node_id": "topic_7"
+    },
+    "market": {
+      "concept_type": "general",
+      "node_id": "keyword_32"
+    },
+    "technology": {
+      "concept_type": "general",
+      "node_id": "keyword_13"
+    },
+    "data": {
+      "concept_type": "main_topic",
+      "node_id": "topic_37"
+    },
+    "research": {
+      "concept_type": "general",
+      "node_id": "keyword_14"
+    },
+    "implementation": {
+      "concept_type": "general",
+      "node_id": "keyword_15"
+    },
+    "customer": {
+      "concept_type": "general",
+      "node_id": "keyword_31"
+    },
+    "satisfaction": {
+      "concept_type": "general",
+      "node_id": "keyword_33"
+    },
+    "product": {
+      "concept_type": "general",
+      "node_id": "keyword_34"
+    },
+    "increased": {
+      "concept_type": "general",
+      "node_id": "keyword_35"
+    },
+    "authentication": {
+      "concept_type": "general",
+      "node_id": "keyword_42"
+    },
+    "service": {
+      "concept_type": "general",
+      "node_id": "keyword_43"
+    },
+    "system": {
+      "concept_type": "general",
+      "node_id": "keyword_44"
+    },
+    "architecture": {
+      "concept_type": "general",
+      "node_id": "keyword_45"
+    },
+    "encryption": {
+      "concept_type": "general",
+      "node_id": "keyword_46"
+    }
+  },
+  "relationships": [
+    {
+      "source": "ai_market_research.txt",
+      "target": "20",
+      "relationship": "contains",
+      "confidence": 0.7
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "20",
+      "relationship": "contains",
+      "confidence": 0.7
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "20",
+      "relationship": "contains",
+      "confidence": 0.7
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "$1",
+      "relationship": "contains",
+      "confidence": 0.8
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "$1",
+      "relationship": "contains",
+      "confidence": 0.8
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "adoption",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "rate",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "market",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "technology",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "data",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "adoption",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "market",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "technology",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "research",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "ai_market_research.txt",
+      "target": "implementation",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "20",
+      "relationship": "contains",
+      "confidence": 0.7
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "20",
+      "relationship": "contains",
+      "confidence": 0.7
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "20",
+      "relationship": "contains",
+      "confidence": 0.7
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "20",
+      "relationship": "contains",
+      "confidence": 0.7
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "$2",
+      "relationship": "contains",
+      "confidence": 0.8
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "$1",
+      "relationship": "contains",
+      "confidence": 0.8
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "$600",
+      "relationship": "contains",
+      "confidence": 0.8
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "$450",
+      "relationship": "contains",
+      "confidence": 0.8
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "$2",
+      "relationship": "contains",
+      "confidence": 0.8
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "customer",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "market",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "satisfaction",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "product",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "increased",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "customer",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "market",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "satisfaction",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "product",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "business_report_q3_2024.txt",
+      "target": "increased",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "data",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "authentication",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "service",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "system",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "architecture",
+      "relationship": "discusses",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "authentication",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "service",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "system",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "architecture",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "technical_architecture.txt",
+      "target": "encryption",
+      "relationship": "emphasizes",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "20",
+      "target": "20",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "$1",
+      "target": "$1",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "$1",
+      "target": "$1",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "$1",
+      "target": "$1",
+      "relationship": "same_as",
+      "confidence": 0
+    },
+    {
+      "source": "$2",
+      "target": "$2",
+      "relationship": "same_as",
+      "confidence": 0
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-02-07T12:35:04.044102",
+    "session_id": "44963f0f-ff01-43db-95f0-af1000d4f470",
+    "total_nodes": 47,
+    "total_edges": 69
+  }
+}

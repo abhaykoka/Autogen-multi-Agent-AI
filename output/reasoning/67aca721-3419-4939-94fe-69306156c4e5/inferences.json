@@ -1,0 +1,37 @@
+[
+  {
+    "type": "importance_inference",
+    "inference": "'20' is a central theme (appears 7 times)",
+    "confidence": 0.9,
+    "evidence": "Entity frequency across 7 documents",
+    "implications": "'20' likely plays a key role in the document collection"
+  },
+  {
+    "type": "importance_inference",
+    "inference": "'$1' is a central theme (appears 3 times)",
+    "confidence": 0.9,
+    "evidence": "Entity frequency across 3 documents",
+    "implications": "'$1' likely plays a key role in the document collection"
+  },
+  {
+    "type": "importance_inference",
+    "inference": "'$2' is a central theme (appears 2 times)",
+    "confidence": 0.8,
+    "evidence": "Entity frequency across 2 documents",
+    "implications": "'$2' likely plays a key role in the document collection"
+  },
+  {
+    "type": "pattern_inference",
+    "inference": "Cross-document entity frequency indicates thematic importance",
+    "confidence": 0.8,
+    "evidence": "Entities appearing in multiple documents are likely central themes",
+    "implications": "This pattern suggests underlying structure in the data"
+  },
+  {
+    "type": "pattern_inference",
+    "inference": "Document type determines content patterns",
+    "confidence": 0.7,
+    "evidence": "Documents cluster by type with shared characteristics",
+    "implications": "This pattern suggests underlying structure in the data"
+  }
+]

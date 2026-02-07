@@ -1,0 +1,500 @@
+{
+  "qa_pairs": [
+    {
+      "question": "How many documents were analyzed?",
+      "answer": "The analysis processed 3 documents.",
+      "confidence": 1.0,
+      "category": "overview"
+    },
+    {
+      "question": "What are the most important entities identified?",
+      "answer": "Key entities include $1 and others, with 14 total entities identified.",
+      "confidence": 0.8,
+      "category": "entities"
+    },
+    {
+      "question": "What are the key insights from the analysis?",
+      "answer": "Analysis generated 5 insights, including patterns in entity relationships and document themes.",
+      "confidence": 0.9,
+      "category": "insights"
+    }
+  ],
+  "search_indexes": {
+    "entity_index": [
+      "20",
+      "$1",
+      "$2",
+      "$600",
+      "$450"
+    ],
+    "topic_index": [
+      "product",
+      "architecture",
+      "technology",
+      "authentication",
+      "market",
+      "rate",
+      "data",
+      "increased",
+      "adoption",
+      "service",
+      "customer",
+      "system",
+      "satisfaction"
+    ],
+    "keyword_index": [
+      "product",
+      "architecture",
+      "technology",
+      "research",
+      "market",
+      "authentication",
+      "implementation",
+      "increased",
+      "adoption",
+      "service",
+      "customer",
+      "system",
+      "satisfaction",
+      "encryption"
+    ]
+  },
+  "query_capabilities": {
+    "supported_query_types": [
+      "entity_lookup",
+      "document_search",
+      "relationship_queries",
+      "summary_requests",
+      "comparison_queries"
+    ],
+    "response_formats": [
+      "detailed",
+      "summary",
+      "bullet_points"
+    ]
+  },
+  "knowledge_base": {
+    "entities": {
+      "20": {
+        "label": "20",
+        "type": "date",
+        "confidence": 0.7,
+        "source_documents": [
+          "business_report_q3_2024.txt"
+        ],
+        "related_entities": [],
+        "contexts": []
+      },
+      "$1": {
+        "label": "$1",
+        "type": "monetary",
+        "confidence": 0.8,
+        "source_documents": [
+          "business_report_q3_2024.txt"
+        ],
+        "related_entities": [],
+        "contexts": []
+      },
+      "$2": {
+        "label": "$2",
+        "type": "monetary",
+        "confidence": 0.8,
+        "source_documents": [
+          "business_report_q3_2024.txt"
+        ],
+        "related_entities": [],
+        "contexts": []
+      },
+      "$600": {
+        "label": "$600",
+        "type": "monetary",
+        "confidence": 0.8,
+        "source_documents": [
+          "business_report_q3_2024.txt"
+        ],
+        "related_entities": [],
+        "contexts": []
+      },
+      "$450": {
+        "label": "$450",
+        "type": "monetary",
+        "confidence": 0.8,
+        "source_documents": [
+          "business_report_q3_2024.txt"
+        ],
+        "related_entities": [],
+        "contexts": []
+      }
+    },
+    "facts": [],
+    "relationships": [
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "20",
+        "target": "20",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "20",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "$1",
+        "target": "$1",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "$1",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "$1",
+        "target": "$1",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "$1",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "$1",
+        "target": "$1",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "$1",
+          "cross_document": true
+        }
+      },
+      {
+        "source": "$2",
+        "target": "$2",
+        "type": "same_as",
+        "confidence": 0.0,
+        "properties": {
+          "entity_label": "$2",
+          "cross_document": true
+        }
+      }
+    ],
+    "topics": {},
+    "document_summaries": {
+      "ai_market_research.txt": {
+        "filename": "ai_market_research.txt",
+        "document_type": "other",
+        "main_topics": [
+          "adoption",
+          "rate",
+          "market",
+          "technology",
+          "data"
+        ],
+        "key_entities": [
+          "20",
+          "20",
+          "20",
+          "$1",
+          "$1"
+        ],
+        "sentiment": "neutral",
+        "keywords": [
+          "adoption",
+          "market",
+          "technology",
+          "research",
+          "implementation"
+        ]
+      },
+      "business_report_q3_2024.txt": {
+        "filename": "business_report_q3_2024.txt",
+        "document_type": "report",
+        "main_topics": [
+          "customer",
+          "market",
+          "satisfaction",
+          "product",
+          "increased"
+        ],
+        "key_entities": [
+          "20",
+          "20",
+          "20",
+          "$2",
+          "$1",
+          "$600"
+        ],
+        "sentiment": "neutral",
+        "keywords": [
+          "customer",
+          "market",
+          "satisfaction",
+          "product",
+          "increased"
+        ]
+      },
+      "technical_architecture.txt": {
+        "filename": "technical_architecture.txt",
+        "document_type": "other",
+        "main_topics": [
+          "data",
+          "authentication",
+          "service",
+          "system",
+          "architecture"
+        ],
+        "key_entities": [],
+        "sentiment": "neutral",
+        "keywords": [
+          "authentication",
+          "service",
+          "system",
+          "architecture",
+          "encryption"
+        ]
+      }
+    },
+    "searchable_content": {
+      "entity_index": [
+        "20",
+        "$1",
+        "$2",
+        "$600",
+        "$450"
+      ],
+      "topic_index": [
+        "product",
+        "architecture",
+        "technology",
+        "authentication",
+        "market",
+        "rate",
+        "data",
+        "increased",
+        "adoption",
+        "service",
+        "customer",
+        "system",
+        "satisfaction"
+      ],
+      "keyword_index": [
+        "product",
+        "architecture",
+        "technology",
+        "research",
+        "market",
+        "authentication",
+        "implementation",
+        "increased",
+        "adoption",
+        "service",
+        "customer",
+        "system",
+        "satisfaction",
+        "encryption"
+      ]
+    }
+  },
+  "session_id": "67aca721-3419-4939-94fe-69306156c4e5"
+}

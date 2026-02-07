@@ -140,8 +140,13 @@ class DocumentIngestionAgent(BaseAgent):
         try:
             # Handle different input formats
             if isinstance(input_data, str):
-                # Single file path
-                return Path(input_data).exists()
+                path = Path(input_data)
+                if path.is_file():
+                    return True
+                elif path.is_dir():
+                    # Check if directory contains any supported files
+                    return any(f.suffix.lower() in self.supported_formats for f in path.glob('**/*') if f.is_file())
+                return False
             elif isinstance(input_data, list):
                 # List of file paths
                 return all(isinstance(fp, str) for fp in input_data)
@@ -161,7 +166,18 @@ class DocumentIngestionAgent(BaseAgent):
     def _extract_file_paths(self, input_data: Any) -> List[str]:
         """Extract file paths from various input formats"""
         if isinstance(input_data, str):
-            return [input_data]
+            path = Path(input_data)
+            if path.is_file():
+                return [str(path.absolute())]
+            elif path.is_dir():
+                # Recursively find all supported files
+                files = []
+                for ext in self.supported_formats:
+                    # glob is case sensitive on some OS, but typically lowercase extensions are used
+                    files.extend([str(f.absolute()) for f in path.rglob(f"*{ext}")])
+                    files.extend([str(f.absolute()) for f in path.rglob(f"*{ext.upper()}")])
+                return sorted(list(set(files))) # deduplicate
+            return []
         elif isinstance(input_data, list):
             return input_data
         elif isinstance(input_data, dict):

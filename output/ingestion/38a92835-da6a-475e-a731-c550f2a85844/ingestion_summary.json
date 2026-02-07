@@ -1,0 +1,56 @@
+{
+  "session_id": "38a92835-da6a-475e-a731-c550f2a85844",
+  "timestamp": 1770447597.0271091,
+  "statistics": {
+    "total_files_submitted": 3,
+    "valid_files": 3,
+    "processed_files": 3,
+    "total_chunks": 7,
+    "total_size_bytes": 5104,
+    "total_pages": 0,
+    "average_chunk_size": 820.8571428571429
+  },
+  "file_types": {
+    "text/plain": 3
+  },
+  "validation_failures": [],
+  "processing_success_rate": 1.0,
+  "ai_insights": {
+    "content_themes": [
+      "General business documents"
+    ],
+    "document_complexity": "simple",
+    "language_style": "formal",
+    "potential_relationships": [
+      "Documents may be part of same project or domain"
+    ],
+    "processing_recommendations": [
+      "Proceed with standard analysis pipeline",
+      "Consider batching for 3 documents"
+    ],
+    "fallback_mode": true
+  },
+  "documents": [
+    {
+      "filename": "ai_market_research.txt",
+      "hash": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+      "chunks": 3,
+      "size": 2166,
+      "pages": null
+    },
+    {
+      "filename": "business_report_q3_2024.txt",
+      "hash": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf",
+      "chunks": 2,
+      "size": 1437,
+      "pages": null
+    },
+    {
+      "filename": "technical_architecture.txt",
+      "hash": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e",
+      "chunks": 2,
+      "size": 1501,
+      "pages": null
+    }
+  ]
+}

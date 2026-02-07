@@ -1,0 +1,15 @@
+{
+  "executive_summary": {
+    "documents_analyzed": 3,
+    "total_entities_extracted": 14,
+    "common_themes_found": 2,
+    "document_relationships": 0,
+    "embeddings_generated": 7
+  },
+  "key_insights": {},
+  "processing_metadata": {
+    "analysis_timestamp": 1770447475.501186,
+    "agent_name": "DocumentAnalysisAgent",
+    "analysis_depth": "comprehensive"
+  }
+}

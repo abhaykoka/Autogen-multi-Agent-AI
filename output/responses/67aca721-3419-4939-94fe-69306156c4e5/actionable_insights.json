@@ -1,0 +1,42 @@
+[
+  {
+    "type": "inference_insight",
+    "title": "Strategic Insight: '20' is a central theme (appears 7 times)...",
+    "description": "'20' is a central theme (appears 7 times)",
+    "evidence": "Entity frequency across 7 documents",
+    "confidence": 0.9,
+    "actionability": "high",
+    "recommended_action": "Focus strategic attention on this key theme",
+    "business_impact": "High potential for strategic advantage"
+  },
+  {
+    "type": "inference_insight",
+    "title": "Strategic Insight: '$1' is a central theme (appears 3 times)...",
+    "description": "'$1' is a central theme (appears 3 times)",
+    "evidence": "Entity frequency across 3 documents",
+    "confidence": 0.9,
+    "actionability": "high",
+    "recommended_action": "Focus strategic attention on this key theme",
+    "business_impact": "High potential for strategic advantage"
+  },
+  {
+    "type": "inference_insight",
+    "title": "Strategic Insight: '$2' is a central theme (appears 2 times)...",
+    "description": "'$2' is a central theme (appears 2 times)",
+    "evidence": "Entity frequency across 2 documents",
+    "confidence": 0.8,
+    "actionability": "high",
+    "recommended_action": "Focus strategic attention on this key theme",
+    "business_impact": "Moderate impact on business decisions"
+  },
+  {
+    "type": "inference_insight",
+    "title": "Strategic Insight: Cross-document entity frequency indicates thematic...",
+    "description": "Cross-document entity frequency indicates thematic importance",
+    "evidence": "Entities appearing in multiple documents are likely central themes",
+    "confidence": 0.8,
+    "actionability": "high",
+    "recommended_action": "Leverage identified pattern for process optimization",
+    "business_impact": "Moderate impact on business decisions"
+  }
+]

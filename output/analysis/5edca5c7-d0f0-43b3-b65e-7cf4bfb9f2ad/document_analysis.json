@@ -1,0 +1,534 @@
+{
+  "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt": {
+    "metadata": {
+      "filename": "ai_market_research.txt",
+      "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+      "file_size": 2166,
+      "file_hash": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+      "mime_type": "text/plain",
+      "created_at": "2026-02-07T12:25:31.670004",
+      "modified_at": "2026-02-07T12:27:55.435659",
+      "page_count": null,
+      "author": null,
+      "title": null,
+      "subject": null,
+      "creator": null,
+      "language": null
+    },
+    "document_hash": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+    "chunk_count": 3,
+    "total_length": 2506,
+    "entities": {
+      "document_entities": {
+        "PERSON": [],
+        "ORGANIZATION": [],
+        "LOCATION": [],
+        "DATE": [
+          {
+            "text": "20",
+            "confidence": 0.7
+          },
+          {
+            "text": "20",
+            "confidence": 0.7
+          },
+          {
+            "text": "20",
+            "confidence": 0.7
+          }
+        ],
+        "CONCEPT": [],
+        "MONETARY": [
+          {
+            "text": "$1",
+            "confidence": 0.8
+          },
+          {
+            "text": "$1",
+            "confidence": 0.8
+          }
+        ],
+        "PRODUCT": []
+      },
+      "chunk_entities": [],
+      "entity_counts": {
+        "PERSON": 0,
+        "ORGANIZATION": 0,
+        "LOCATION": 0,
+        "DATE": 3,
+        "CONCEPT": 0,
+        "MONETARY": 2,
+        "PRODUCT": 0
+      },
+      "fallback_mode": true
+    },
+    "topics": {
+      "main_topics": [
+        "adoption",
+        "rate",
+        "market",
+        "technology",
+        "data"
+      ],
+      "topic_distribution": {
+        "general": 100
+      },
+      "subject_matter": "general",
+      "complexity_level": "intermediate",
+      "fallback_mode": true
+    },
+    "sentiment": {
+      "overall_sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "tone": "business",
+      "emotional_indicators": [],
+      "confidence": 0.5,
+      "fallback_mode": true
+    },
+    "keywords": [
+      [
+        "adoption",
+        1.0
+      ],
+      [
+        "market",
+        0.5454545454545454
+      ],
+      [
+        "technology",
+        0.36363636363636365
+      ],
+      [
+        "research",
+        0.2727272727272727
+      ],
+      [
+        "implementation",
+        0.2727272727272727
+      ],
+      [
+        "vendors",
+        0.2727272727272727
+      ],
+      [
+        "growth",
+        0.2727272727272727
+      ],
+      [
+        "across",
+        0.18181818181818182
+      ],
+      [
+        "enterprises",
+        0.18181818181818182
+      ],
+      [
+        "through",
+        0.18181818181818182
+      ]
+    ],
+    "classification": {
+      "document_type": "other",
+      "domain": "business",
+      "formality": "formal",
+      "purpose": "informational",
+      "audience": "business",
+      "fallback_mode": true
+    },
+    "chunk_analysis": [
+      {
+        "chunk_id": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_0",
+        "length": 802,
+        "word_count": 119,
+        "sentence_count": 6,
+        "readability_score": 0.4049953314659197,
+        "has_numbers": true,
+        "has_caps": true,
+        "density_score": 0.1483790523690773
+      },
+      {
+        "chunk_id": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_1",
+        "length": 813,
+        "word_count": 119,
+        "sentence_count": 7,
+        "readability_score": 0.48683473389355747,
+        "has_numbers": true,
+        "has_caps": true,
+        "density_score": 0.14637146371463713
+      },
+      {
+        "chunk_id": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_2",
+        "length": 889,
+        "word_count": 120,
+        "sentence_count": 12,
+        "readability_score": 0.6641666666666667,
+        "has_numbers": true,
+        "has_caps": true,
+        "density_score": 0.13498312710911137
+      }
+    ],
+    "linguistic_features": {
+      "total_words": 358,
+      "unique_words": 208,
+      "lexical_diversity": 0.5810055865921788,
+      "avg_word_length": 5.944134078212291,
+      "long_words_ratio": 0.43854748603351956,
+      "sentences": 25,
+      "paragraphs": 13
+    },
+    "conceptual_structure": {
+      "structure_type": "sequential",
+      "paragraph_count": 13,
+      "avg_paragraph_length": 190.92307692307693,
+      "has_headers": true,
+      "has_lists": true,
+      "conceptual_depth": "moderate"
+    }
+  },
+  "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt": {
+    "metadata": {
+      "filename": "business_report_q3_2024.txt",
+      "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt",
+      "file_size": 1437,
+      "file_hash": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf",
+      "mime_type": "text/plain",
+      "created_at": "2026-02-07T12:25:31.667979",
+      "modified_at": "2026-02-07T12:27:55.433301",
+      "page_count": null,
+      "author": null,
+      "title": null,
+      "subject": null,
+      "creator": null,
+      "language": null
+    },
+    "document_hash": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf",
+    "chunk_count": 2,
+    "total_length": 1598,
+    "entities": {
+      "document_entities": {
+        "PERSON": [],
+        "ORGANIZATION": [],
+        "LOCATION": [],
+        "DATE": [
+          {
+            "text": "20",
+            "confidence": 0.7
+          },
+          {
+            "text": "20",
+            "confidence": 0.7
+          },
+          {
+            "text": "20",
+            "confidence": 0.7
+          },
+          {
+            "text": "20",
+            "confidence": 0.7
+          }
+        ],
+        "CONCEPT": [],
+        "MONETARY": [
+          {
+            "text": "$2",
+            "confidence": 0.8
+          },
+          {
+            "text": "$1",
+            "confidence": 0.8
+          },
+          {
+            "text": "$600",
+            "confidence": 0.8
+          },
+          {
+            "text": "$450",
+            "confidence": 0.8
+          },
+          {
+            "text": "$2",
+            "confidence": 0.8
+          }
+        ],
+        "PRODUCT": []
+      },
+      "chunk_entities": [],
+      "entity_counts": {
+        "PERSON": 0,
+        "ORGANIZATION": 0,
+        "LOCATION": 0,
+        "DATE": 4,
+        "CONCEPT": 0,
+        "MONETARY": 5,
+        "PRODUCT": 0
+      },
+      "fallback_mode": true
+    },
+    "topics": {
+      "main_topics": [
+        "customer",
+        "market",
+        "satisfaction",
+        "product",
+        "increased"
+      ],
+      "topic_distribution": {
+        "general": 100
+      },
+      "subject_matter": "general",
+      "complexity_level": "intermediate",
+      "fallback_mode": true
+    },
+    "sentiment": {
+      "overall_sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "tone": "business",
+      "emotional_indicators": [],
+      "confidence": 0.5,
+      "fallback_mode": true
+    },
+    "keywords": [
+      [
+        "customer",
+        1.0
+      ],
+      [
+        "market",
+        0.5
+      ],
+      [
+        "satisfaction",
+        0.5
+      ],
+      [
+        "product",
+        0.5
+      ],
+      [
+        "increased",
+        0.5
+      ],
+      [
+        "revenue",
+        0.3333333333333333
+      ],
+      [
+        "growth",
+        0.3333333333333333
+      ],
+      [
+        "performance",
+        0.3333333333333333
+      ],
+      [
+        "include",
+        0.3333333333333333
+      ],
+      [
+        "solutions",
+        0.3333333333333333
+      ]
+    ],
+    "classification": {
+      "document_type": "report",
+      "domain": "business",
+      "formality": "formal",
+      "purpose": "informational",
+      "audience": "business",
+      "fallback_mode": true
+    },
+    "chunk_analysis": [
+      {
+        "chunk_id": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf_chunk_0",
+        "length": 819,
+        "word_count": 120,
+        "sentence_count": 12,
+        "readability_score": 0.7224999999999999,
+        "has_numbers": true,
+        "has_caps": true,
+        "density_score": 0.14652014652014653
+      },
+      {
+        "chunk_id": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf_chunk_1",
+        "length": 778,
+        "word_count": 110,
+        "sentence_count": 10,
+        "readability_score": 0.6621212121212121,
+        "has_numbers": true,
+        "has_caps": true,
+        "density_score": 0.14138817480719795
+      }
+    ],
+    "linguistic_features": {
+      "total_words": 230,
+      "unique_words": 148,
+      "lexical_diversity": 0.6434782608695652,
+      "avg_word_length": 5.904347826086957,
+      "long_words_ratio": 0.4434782608695652,
+      "sentences": 22,
+      "paragraphs": 9
+    },
+    "conceptual_structure": {
+      "structure_type": "sequential",
+      "paragraph_count": 9,
+      "avg_paragraph_length": 175.77777777777777,
+      "has_headers": true,
+      "has_lists": true,
+      "conceptual_depth": "moderate"
+    }
+  },
+  "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt": {
+    "metadata": {
+      "filename": "technical_architecture.txt",
+      "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt",
+      "file_size": 1501,
+      "file_hash": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e",
+      "mime_type": "text/plain",
+      "created_at": "2026-02-07T12:25:31.668990",
+      "modified_at": "2026-02-07T12:27:55.434662",
+      "page_count": null,
+      "author": null,
+      "title": null,
+      "subject": null,
+      "creator": null,
+      "language": null
+    },
+    "document_hash": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e",
+    "chunk_count": 2,
+    "total_length": 1646,
+    "entities": {
+      "document_entities": {
+        "PERSON": [],
+        "ORGANIZATION": [],
+        "LOCATION": [],
+        "DATE": [],
+        "CONCEPT": [],
+        "MONETARY": [],
+        "PRODUCT": []
+      },
+      "chunk_entities": [],
+      "entity_counts": {
+        "PERSON": 0,
+        "ORGANIZATION": 0,
+        "LOCATION": 0,
+        "DATE": 0,
+        "CONCEPT": 0,
+        "MONETARY": 0,
+        "PRODUCT": 0
+      },
+      "fallback_mode": true
+    },
+    "topics": {
+      "main_topics": [
+        "data",
+        "authentication",
+        "service",
+        "system",
+        "architecture"
+      ],
+      "topic_distribution": {
+        "general": 100
+      },
+      "subject_matter": "general",
+      "complexity_level": "intermediate",
+      "fallback_mode": true
+    },
+    "sentiment": {
+      "overall_sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "tone": "business",
+      "emotional_indicators": [],
+      "confidence": 0.5,
+      "fallback_mode": true
+    },
+    "keywords": [
+      [
+        "authentication",
+        1.0
+      ],
+      [
+        "service",
+        1.0
+      ],
+      [
+        "system",
+        0.75
+      ],
+      [
+        "architecture",
+        0.75
+      ],
+      [
+        "encryption",
+        0.75
+      ],
+      [
+        "security",
+        0.75
+      ],
+      [
+        "performance",
+        0.75
+      ],
+      [
+        "metrics",
+        0.75
+      ],
+      [
+        "real-time",
+        0.5
+      ],
+      [
+        "machine",
+        0.5
+      ]
+    ],
+    "classification": {
+      "document_type": "other",
+      "domain": "business",
+      "formality": "formal",
+      "purpose": "informational",
+      "audience": "business",
+      "fallback_mode": true
+    },
+    "chunk_analysis": [
+      {
+        "chunk_id": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e_chunk_0",
+        "length": 984,
+        "word_count": 133,
+        "sentence_count": 5,
+        "readability_score": 0.11132832080200505,
+        "has_numbers": true,
+        "has_caps": true,
+        "density_score": 0.13516260162601626
+      },
+      {
+        "chunk_id": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e_chunk_1",
+        "length": 661,
+        "word_count": 104,
+        "sentence_count": 8,
+        "readability_score": 0.6663461538461538,
+        "has_numbers": true,
+        "has_caps": true,
+        "density_score": 0.1573373676248109
+      }
+    ],
+    "linguistic_features": {
+      "total_words": 237,
+      "unique_words": 144,
+      "lexical_diversity": 0.6075949367088608,
+      "avg_word_length": 5.9071729957805905,
+      "long_words_ratio": 0.45147679324894513,
+      "sentences": 13,
+      "paragraphs": 11
+    },
+    "conceptual_structure": {
+      "structure_type": "sequential",
+      "paragraph_count": 11,
+      "avg_paragraph_length": 147.8181818181818,
+      "has_headers": true,
+      "has_lists": true,
+      "conceptual_depth": "moderate"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "session_id": "f79221a7-1066-40c2-ba17-eb5ad321b71e",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "documents": {
+    "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552": {
+      "filename": "ai_market_research.txt",
+      "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\ai_market_research.txt",
+      "embedding_id": "doc_embed_57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+      "chunk_count": 3
+    },
+    "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf": {
+      "filename": "business_report_q3_2024.txt",
+      "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\business_report_q3_2024.txt",
+      "embedding_id": "doc_embed_8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf",
+      "chunk_count": 2
+    },
+    "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e": {
+      "filename": "technical_architecture.txt",
+      "file_path": "C:\\Users\\janar\\OneDrive\\Desktop\\AidenAl\\agentic-document-intelligence\\data\\demo_documents\\technical_architecture.txt",
+      "embedding_id": "doc_embed_aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e",
+      "chunk_count": 2
+    }
+  },
+  "chunks": {
+    "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_0": {
+      "document_id": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+      "chunk_index": 0,
+      "embedding_id": "chunk_embed_57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_0",
+      "content_length": 802
+    },
+    "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_1": {
+      "document_id": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+      "chunk_index": 1,
+      "embedding_id": "chunk_embed_57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_1",
+      "content_length": 813
+    },
+    "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_2": {
+      "document_id": "57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552",
+      "chunk_index": 2,
+      "embedding_id": "chunk_embed_57178feac9119a3e8b2c489ad3b98eb4384ebab609f3944b210eb761c8d2a552_chunk_2",
+      "content_length": 889
+    },
+    "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf_chunk_0": {
+      "document_id": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf",
+      "chunk_index": 0,
+      "embedding_id": "chunk_embed_8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf_chunk_0",
+      "content_length": 819
+    },
+    "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf_chunk_1": {
+      "document_id": "8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf",
+      "chunk_index": 1,
+      "embedding_id": "chunk_embed_8c41abbcb0fa9e53ec24ebe522a2445696b635cd95c7919ad438e048b581e1cf_chunk_1",
+      "content_length": 778
+    },
+    "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e_chunk_0": {
+      "document_id": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e",
+      "chunk_index": 0,
+      "embedding_id": "chunk_embed_aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e_chunk_0",
+      "content_length": 984
+    },
+    "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e_chunk_1": {
+      "document_id": "aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e",
+      "chunk_index": 1,
+      "embedding_id": "chunk_embed_aec3c08e37df13c43cd6f3f77398f4610bfdf85be3d41d56adceeb989f87ec6e_chunk_1",
+      "content_length": 661
+    }
+  },
+  "total_embeddings": 7
+}

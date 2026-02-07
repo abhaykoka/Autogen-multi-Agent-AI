@@ -1,0 +1,246 @@
+{
+  "deductive_reasoning": {
+    "deductions": [],
+    "rule_count": 1,
+    "confidence_avg": 0
+  },
+  "inductive_reasoning": {
+    "patterns": [
+      {
+        "type": "frequent_entity_pattern",
+        "pattern": "Entities appearing in multiple documents are likely central themes",
+        "evidence": [
+          [
+            "20",
+            7
+          ],
+          [
+            "$1",
+            3
+          ],
+          [
+            "$2",
+            2
+          ]
+        ],
+        "confidence": 0.8,
+        "generalization": "Cross-document entity frequency indicates thematic importance"
+      },
+      {
+        "type": "document_type_pattern",
+        "pattern": "Documents cluster by type with shared characteristics",
+        "evidence": {
+          "other": [
+            "ai_market_research.txt",
+            "technical_architecture.txt"
+          ],
+          "report": [
+            "business_report_q3_2024.txt"
+          ]
+        },
+        "confidence": 0.7,
+        "generalization": "Document type determines content patterns"
+      }
+    ],
+    "pattern_count": 2,
+    "confidence_avg": 0.75
+  },
+  "abductive_reasoning": {
+    "explanations": [
+      {
+        "observation": "Entities '20' and '20' appear together 9 times",
+        "hypothesis": "There is a logical relationship between 20 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$1' and '20' appear together 10 times",
+        "hypothesis": "There is a logical relationship between $1 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$2' and '20' appear together 8 times",
+        "hypothesis": "There is a logical relationship between $2 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$600' and '20' appear together 4 times",
+        "hypothesis": "There is a logical relationship between $600 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$450' and '20' appear together 4 times",
+        "hypothesis": "There is a logical relationship between $450 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$1' and '$2' appear together 2 times",
+        "hypothesis": "There is a logical relationship between $1 and $2",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$2' and '$600' appear together 2 times",
+        "hypothesis": "There is a logical relationship between $2 and $600",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$2' and '$450' appear together 2 times",
+        "hypothesis": "There is a logical relationship between $2 and $450",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      }
+    ],
+    "explanation_count": 8,
+    "confidence_avg": 0.9
+  },
+  "analogical_reasoning": {
+    "analogies": [
+      {
+        "type": "structural_analogy",
+        "pattern": "Documents with entity pattern: date, monetary",
+        "analogous_documents": [
+          "ai_market_research.txt",
+          "business_report_q3_2024.txt"
+        ],
+        "analogy": "These documents share the same informational structure",
+        "confidence": 0.7,
+        "implications": "Documents with similar entity patterns likely serve similar purposes"
+      }
+    ],
+    "analogy_count": 1,
+    "confidence_avg": 0.7
+  },
+  "causal_reasoning": {
+    "causal_chains": [],
+    "chain_count": 0,
+    "confidence_avg": 0
+  },
+  "combined_insights": {
+    "key_deductions": [],
+    "identified_patterns": [
+      {
+        "type": "frequent_entity_pattern",
+        "pattern": "Entities appearing in multiple documents are likely central themes",
+        "evidence": [
+          [
+            "20",
+            7
+          ],
+          [
+            "$1",
+            3
+          ],
+          [
+            "$2",
+            2
+          ]
+        ],
+        "confidence": 0.8,
+        "generalization": "Cross-document entity frequency indicates thematic importance"
+      },
+      {
+        "type": "document_type_pattern",
+        "pattern": "Documents cluster by type with shared characteristics",
+        "evidence": {
+          "other": [
+            "ai_market_research.txt",
+            "technical_architecture.txt"
+          ],
+          "report": [
+            "business_report_q3_2024.txt"
+          ]
+        },
+        "confidence": 0.7,
+        "generalization": "Document type determines content patterns"
+      }
+    ],
+    "best_explanations": [
+      {
+        "observation": "Entities '20' and '20' appear together 9 times",
+        "hypothesis": "There is a logical relationship between 20 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$1' and '20' appear together 10 times",
+        "hypothesis": "There is a logical relationship between $1 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$2' and '20' appear together 8 times",
+        "hypothesis": "There is a logical relationship between $2 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$600' and '20' appear together 4 times",
+        "hypothesis": "There is a logical relationship between $600 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$450' and '20' appear together 4 times",
+        "hypothesis": "There is a logical relationship between $450 and 20",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$1' and '$2' appear together 2 times",
+        "hypothesis": "There is a logical relationship between $1 and $2",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$2' and '$600' appear together 2 times",
+        "hypothesis": "There is a logical relationship between $2 and $600",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      },
+      {
+        "observation": "Entities '$2' and '$450' appear together 2 times",
+        "hypothesis": "There is a logical relationship between $2 and $450",
+        "explanation": "Entities co-occur because they are contextually related or causally connected",
+        "confidence": 0.9,
+        "type": "entity_relationship"
+      }
+    ],
+    "structural_analogies": [
+      {
+        "type": "structural_analogy",
+        "pattern": "Documents with entity pattern: date, monetary",
+        "analogous_documents": [
+          "ai_market_research.txt",
+          "business_report_q3_2024.txt"
+        ],
+        "analogy": "These documents share the same informational structure",
+        "confidence": 0.7,
+        "implications": "Documents with similar entity patterns likely serve similar purposes"
+      }
+    ],
+    "causal_relationships": [],
+    "overall_reasoning_confidence": 0.47000000000000003,
+    "reasoning_completeness": 0.6
+  }
+}
